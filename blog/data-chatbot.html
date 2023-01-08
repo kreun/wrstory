@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="../wrstory.ico" />
+		<meta name="viewport" content="width=device-width" />
+		<meta http-equiv="content-security-policy" content="">
+		<link href="../_app/immutable/assets/_layout-11f6a758.css" rel="stylesheet">
+		<link href="../_app/immutable/assets/_page-f3f6ee8f.css" rel="stylesheet">
+		<link href="../_app/immutable/assets/Link-2b8e26e6.css" rel="stylesheet">
+		<link rel="modulepreload" href="../_app/immutable/start-829e58ff.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/preload-helper-aa6bc0ce.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/index-cb965e6b.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/singletons-5a379a51.js">
+		<link rel="modulepreload" href="../_app/immutable/components/pages/_layout.svelte-3d495eeb.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/stores-9764c347.js">
+		<link rel="modulepreload" href="../_app/immutable/modules/pages/_layout.ts-9f78246f.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/_layout-014968d9.js">
+		<link rel="modulepreload" href="../_app/immutable/components/pages/blog/_slug_/_page.svelte-553207d5.js">
+		<link rel="modulepreload" href="../_app/immutable/modules/pages/blog/_slug_/_page.js-594db6d7.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/_page-8edaa323.js">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	</head>
+	<body data-sveltekit-prefetch>
+		<div>
+
+
+<div class="app svelte-hfnm1v">
+
+<header class="svelte-a7kgh7"><div class="header-main svelte-a7kgh7"><div class="navs svelte-a7kgh7"><div class="corner svelte-a7kgh7">
+                <div class="m-nav-btn svelte-a7kgh7"><button><img src="/_app/immutable/assets/menu-5005100f.svg" alt="화이트래빗스토리" class="svelte-a7kgh7"></button></div>
+                <a href="/" class="svelte-a7kgh7"><img src="/_app/immutable/assets/logo2-d939de7e.png" alt="화이트래빗스토리" class="svelte-a7kgh7"></a></div>
+            
+            <nav class=" svelte-a7kgh7"><ul class="svelte-a7kgh7"><li class="svelte-a7kgh7"><a href="/" class="svelte-a7kgh7">🚀 프로젝트</a></li>
+                    <li class="svelte-a7kgh7"><a href="/workshop" class="svelte-a7kgh7">✈ 챗봇강의</a></li>
+                    <li class="svelte-a7kgh7 active"><a href="/blog" class="svelte-a7kgh7">👍 블로그</a></li>
+                    <li class="svelte-a7kgh7"><a href="/contact" class="svelte-a7kgh7">💬 문의</a></li></ul></nav></div></div>
+    
+    
+
+</header>
+    <main class="svelte-hfnm1v"><div class="blog-body text-xl font-normal svelte-ekcgc9"><h1>데이터로 만드는 챗봇</h1>
+<div class="blog-info">2023-01-06 18:14</div>
+<br>
+<h2>Step1 구글시트로 챗봇 시나리오 데이터 만들기</h2>
+<p>구글스프레드시트를 이용해서, 챗봇 시나리오를 관리하며, 편집된 내용이 챗봇에 적용되도록 개발합니다.</p>
+<br>
+<h3>A 오픈빌더로만 개발하는 경우</h3>
+<p>◻ 챗봇의 내용이 많지 않으며, 단순한 메뉴 구성일 때</p>
+<br>
+<h3>B 오픈빌더로만 개발하면 안되는 경우</h3>
+<ul><li>◻ 챗봇의 내용을 카드로 정리했을 때 수량이 많다면 오픈빌더에서 유지보수에 비용이 발생합니다.   </li>
+<li>◻ 쉽게 유지보수 할 수 없다는 것은, 챗봇의 업데이트를 위해서 시간과 비용이 늘어나게 되며, 내용이 많아 질 수록 증가하게 됩니다.</li></ul>
+<br>
+<h2>Step2 고객사례</h2>
+<p>오픈빌더 블럭의 갯수는 100개 내외이지만, 해당 카드의 내용을 조합해서 키워드 검색에서 보여줘야 합니다.<br>
+블럭의 갯수만 오픈빌더에서 작업하는 것은 오픈빌더에서 관리하는 것이 효율적일 수 있지만, 해당 블럭들의 조합을 모두 블럭으로 만들 수 있을까요?   </p>
+<br>
+<p>고객사의 경우에는 2,000개 이상의 키워드에 대한 응답이 필요 했습니다.   </p>
+<br>
+<h2>Step3 솔루션</h2>
+<ul><li>◻ 데이터 구축 1 : 개별 카드의 내용을 구글 시트에 작성합니다.   </li>
+<li>◻ 데이터 구축 2 : 키워드별 응답 내용을 카드 코드를 이용해서 캐러셀형식의 응답으로 작성합니다.   </li>
+<li>◻ 데이터 구축 3 : 기존의 오픈빌더 블록의 내용도 코드화를 통해서 데이터로 작성합니다.   </li></ul>
+<br>
+<p>정리된 데이터는 구글시트를 통해서 관리하며, 구글시트에서 직접 서버로 데이터를 업데이트 할 수 있습니다.<br>
+카카오톡 챗봇에서 사용자 질의는 챗봇 서버를 통해서 응답하게 됩니다.</p>
+<br>
+</div></main>
+    <footer class="svelte-hfnm1v"><div class="infos svelte-hfnm1v"><div class="text pb-2 font-extrabold ">화이트래빗스토리</div>
+            
+            <div class="text">yh.kim@wrstory.com</div>
+            <div class="text pb-2">03956 서울특별시 마포구 방울내로 31 102동 204호</div>
+            <div class="text pb-0">사업자 번호 : 848-34-01027</div>
+            <div class="text pb-2">통신판매업신고  : <a href="http://www.ftc.go.kr/bizCommPop.do?wrkr_no=8483401027" target="_blank">2022-서울마포-1663</a></div>
+            <div class="text pb-2">wrstory.com © 2023 All rights reserved</div></div></footer>
+</div>
+
+
+		<script type="module" data-sveltekit-hydrate="7vq88s">
+			import { start } from "../_app/immutable/start-829e58ff.js";
+
+			start({
+				env: {},
+				hydrate: {
+					status: 200,
+					error: null,
+					node_ids: [0, 4],
+					params: {slug:"data-chatbot"},
+					routeId: "blog/[slug]",
+					data: (function(a){return [a,a]}(null)),
+					form: null
+				},
+				paths: {"base":"","assets":""},
+				target: document.querySelector('[data-sveltekit-hydrate="7vq88s"]').parentNode,
+				trailing_slash: "never"
+			});
+		</script>
+	</div>
+	</body>
+</html>
