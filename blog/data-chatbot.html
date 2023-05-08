@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-MH88394FGQ"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag('js', new Date());
+
+			gtag('config', 'G-MH88394FGQ');
+		</script>
+
+		<meta charset="utf-8" />
+		<link rel="icon" href="../wrstory.ico" />
+		<meta name="viewport" content="width=device-width" />
+		<meta http-equiv="content-security-policy" content="">
+		<link href="../_app/immutable/assets/_layout-48e391bd.css" rel="stylesheet">
+		<link href="../_app/immutable/assets/_page-11b36663.css" rel="stylesheet">
+		<link href="../_app/immutable/assets/Link-2b8e26e6.css" rel="stylesheet">
+		<link rel="modulepreload" href="../_app/immutable/start-d995b616.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/index-07efb363.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/singletons-5bcf156b.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/index-fd57063c.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/preload-helper-41c905a7.js">
+		<link rel="modulepreload" href="../_app/immutable/components/pages/_layout.svelte-bd7cb8e0.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/stores-1ae89425.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/index-184a84c4.js">
+		<link rel="modulepreload" href="../_app/immutable/modules/pages/_layout.ts-1c131f25.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/_layout-35ed2dcc.js">
+		<link rel="modulepreload" href="../_app/immutable/components/pages/blog/_slug_/_page.svelte-3c85ef92.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/SvelteSeo-94b937d8.js">
+		<link rel="modulepreload" href="../_app/immutable/modules/pages/blog/_slug_/_page.js-539b6c5c.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/_page-c7d01fc1.js"><title>데이터로 만드는 챗봇-화이트래빗스토리</title><!-- HEAD_svelte-1q8xl96_START --><meta name="robots" content="index,follow"><meta name="googlebot" content="index,follow"><meta name="description" content="데이터만 작성하면 챗봇이 완성되고, 쉽게 유지보수가 가능해 집니다."><meta property="og:title" content="데이터로 만드는 챗봇-화이트래빗스토리">
+
+    <meta property="og:description" content="데이터만 작성하면 챗봇이 완성되고, 쉽게 유지보수가 가능해 집니다.">
+
+    <meta property="og:url" content="https://www.wrstory.com/blog/data-chatbot">
+
+    <meta property="og:type" content="article">
+
+    <meta property="article:published_time" content="2023-01-06 18:14">
+
+      <meta property="article:modified_time" content="2023-01-06 18:14">
+
+      
+
+      <meta property="article:section" content="blog">
+
+      
+
+      <meta property="article:tag" content="챗봇데이터"><meta property="article:tag" content="데이터기반챗봇">
+
+    <meta property="og:image" content="https://www.wrstory.com/wrstory-title.png">
+        <meta property="og:image:alt" content="화이트래빗스토리">
+        <meta property="og:image:width" content="850">
+        <meta property="og:image:height" content="650"><!-- HEAD_svelte-1q8xl96_END -->
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+	</head>
+	<body data-sveltekit-prefetch>
+		<div>
+
+
+<div class="app svelte-14aq7ip">
+
+<header class="svelte-8vxwpk"><div class="header-main svelte-8vxwpk"><div class="navs svelte-8vxwpk"><div class="corner svelte-8vxwpk">
+                <div class="m-nav-btn svelte-8vxwpk"><button><img src="/_app/immutable/assets/menu-5005100f.svg" alt="화이트래빗스토리" class="svelte-8vxwpk"></button></div>
+                <a href="/" class="svelte-8vxwpk"><img src="/_app/immutable/assets/wrs-logo-2023-7b5cfec7.png" alt="화이트래빗스토리" style="height:36px;" class="svelte-8vxwpk"></a></div>
+            
+            <nav class=" svelte-8vxwpk"><ul class="svelte-8vxwpk"><li class="svelte-8vxwpk"><a href="/" class="svelte-8vxwpk">🚀 프로젝트</a></li>
+                    <li class="svelte-8vxwpk"><a href="/workshop" class="svelte-8vxwpk">✈ 챗봇강의</a></li>
+                    <li class="svelte-8vxwpk"><a href="/blogs" class="svelte-8vxwpk">👍 블로그</a></li>
+                    <li class="svelte-8vxwpk"><a href="/contact" class="svelte-8vxwpk">💬 문의</a></li></ul></nav></div></div>
+    
+    
+
+</header>
+    <main class="svelte-14aq7ip">
+
+
+
+
+<div class="c-body"><div class="blog-body text-xl font-normal svelte-1iccqfv"><h1>데이터로 만드는 챗봇</h1>
+<div class="blog-info">2023-01-06 18:14</div>
+<br>
+<h2>Step1 구글시트로 챗봇 시나리오 데이터 만들기</h2>
+<hr>
+<br>
+<p>구글스프레드시트를 이용해서, 챗봇 시나리오를 관리하며, 편집된 내용이 챗봇에 적용되도록 개발합니다.</p>
+<br>
+<h3>A 오픈빌더로만 개발하는 경우</h3>
+<p>◻ 챗봇의 내용이 많지 않으며, 단순한 메뉴 구성일 때</p>
+<br>
+<h3>B 오픈빌더로만 개발하면 안되는 경우</h3>
+<ul><li>◻ 챗봇의 내용을 카드로 정리했을 때 수량이 많다면 오픈빌더에서 유지보수에 비용이 발생합니다.   </li>
+<li>◻ 쉽게 유지보수 할 수 없다는 것은, 챗봇의 업데이트를 위해서 시간과 비용이 늘어나게 되며, 내용이 많아 질 수록 증가하게 됩니다.</li></ul>
+<br>
+<h2>Step2 고객사례</h2>
+<hr>
+<br>
+<p>오픈빌더 블럭의 갯수는 100개 내외이지만, 해당 카드의 내용을 조합해서 키워드 검색에서 보여줘야 합니다.<br>
+블럭의 갯수만 오픈빌더에서 작업하는 것은 오픈빌더에서 관리하는 것이 효율적일 수 있지만, 해당 블럭들의 조합을 모두 블럭으로 만들 수 있을까요?   </p>
+<br>
+<p>고객사의 경우에는 2,000개 이상의 키워드에 대한 응답이 필요 했습니다.   </p>
+<br>
+<h2>Step3 솔루션</h2>
+<hr>
+<br>
+<ul><li>◻ 데이터 구축 1 : 개별 카드의 내용을 구글 시트에 작성합니다.   </li>
+<li>◻ 데이터 구축 2 : 키워드별 응답 내용을 카드 코드를 이용해서 캐러셀형식의 응답으로 작성합니다.   </li>
+<li>◻ 데이터 구축 3 : 기존의 오픈빌더 블록의 내용도 코드화를 통해서 데이터로 작성합니다.   </li></ul>
+<br>
+<p>정리된 데이터는 구글시트를 통해서 관리하며, 구글시트에서 직접 서버로 데이터를 업데이트 할 수 있습니다.<br>
+카카오톡 챗봇에서 사용자 질의는 챗봇 서버를 통해서 응답하게 됩니다.</p>
+<br></div>
+</div></main>
+    <footer class="svelte-14aq7ip"><div class="infos svelte-14aq7ip"><div class="text pb-2 font-extrabold ">화이트래빗스토리</div>
+
+            <div class="text">yh.kim@wrstory.com</div>
+            <div class="text pb-2">03956 서울특별시 마포구 방울내로 31 102동 204호</div>
+            <div class="text pb-0">사업자 번호 : 848-34-01027</div>
+            <div class="text pb-2">통신판매업신고  : <a href="http://www.ftc.go.kr/bizCommPop.do?wrkr_no=8483401027" target="_blank" rel="noreferrer">2022-서울마포-1663</a></div>
+            <div class="text pb-2">wrstory.com © 2023 All rights reserved</div></div></footer>
+
+</div>
+
+
+		<script type="module" data-sveltekit-hydrate="tgxprc">
+			import { start } from "../_app/immutable/start-d995b616.js";
+
+			start({
+				env: {},
+				paths: {"base":"","assets":""},
+				target: document.querySelector('[data-sveltekit-hydrate="tgxprc"]').parentNode,
+				version: "1683534548002",
+				hydrate: {
+					node_ids: [0, 3],
+					data: [null,null],
+					form: null
+				}
+			});
+		</script>
+	</div>
+	</body>
+</html>

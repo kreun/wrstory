@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-MH88394FGQ"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag('js', new Date());
+
+			gtag('config', 'G-MH88394FGQ');
+		</script>
+
+		<meta charset="utf-8" />
+		<link rel="icon" href="../wrstory.ico" />
+		<meta name="viewport" content="width=device-width" />
+		<meta http-equiv="content-security-policy" content="">
+		<link href="../_app/immutable/assets/_layout-48e391bd.css" rel="stylesheet">
+		<link href="../_app/immutable/assets/_page-11b36663.css" rel="stylesheet">
+		<link href="../_app/immutable/assets/Link-2b8e26e6.css" rel="stylesheet">
+		<link rel="modulepreload" href="../_app/immutable/start-d995b616.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/index-07efb363.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/singletons-5bcf156b.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/index-fd57063c.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/preload-helper-41c905a7.js">
+		<link rel="modulepreload" href="../_app/immutable/components/pages/_layout.svelte-bd7cb8e0.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/stores-1ae89425.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/index-184a84c4.js">
+		<link rel="modulepreload" href="../_app/immutable/modules/pages/_layout.ts-1c131f25.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/_layout-35ed2dcc.js">
+		<link rel="modulepreload" href="../_app/immutable/components/pages/blog/_slug_/_page.svelte-3c85ef92.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/SvelteSeo-94b937d8.js">
+		<link rel="modulepreload" href="../_app/immutable/modules/pages/blog/_slug_/_page.js-539b6c5c.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/_page-c7d01fc1.js"><title>챗봇을 준비하고 있다면-화이트래빗스토리</title><!-- HEAD_svelte-1q8xl96_START --><meta name="robots" content="index,follow"><meta name="googlebot" content="index,follow"><meta name="description" content="고객 상담 업무에서 발생한 질문-답변 데이터, 고객의 주요 문제에 대한 해결 방법 에 대한 데이터를 준비한다."><meta property="og:title" content="챗봇을 준비하고 있다면-화이트래빗스토리">
+
+    <meta property="og:description" content="고객 상담 업무에서 발생한 질문-답변 데이터, 고객의 주요 문제에 대한 해결 방법 에 대한 데이터를 준비한다.">
+
+    <meta property="og:url" content="https://www.wrstory.com/blog/cs-chatbot">
+
+    <meta property="og:type" content="article">
+
+    <meta property="article:published_time" content="2019-09-22 14:25">
+
+      <meta property="article:modified_time" content="2019-09-22 14:25">
+
+      
+
+      <meta property="article:section" content="blog">
+
+      
+
+      <meta property="article:tag" content="챗봇시작하기"><meta property="article:tag" content="챗봇준비"><meta property="article:tag" content="챗봇만들기"><meta property="article:tag" content="고객상담챗봇">
+
+    <meta property="og:image" content="https://www.wrstory.com/wrstory-title.png">
+        <meta property="og:image:alt" content="화이트래빗스토리">
+        <meta property="og:image:width" content="850">
+        <meta property="og:image:height" content="650"><!-- HEAD_svelte-1q8xl96_END -->
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+	</head>
+	<body data-sveltekit-prefetch>
+		<div>
+
+
+<div class="app svelte-14aq7ip">
+
+<header class="svelte-8vxwpk"><div class="header-main svelte-8vxwpk"><div class="navs svelte-8vxwpk"><div class="corner svelte-8vxwpk">
+                <div class="m-nav-btn svelte-8vxwpk"><button><img src="/_app/immutable/assets/menu-5005100f.svg" alt="화이트래빗스토리" class="svelte-8vxwpk"></button></div>
+                <a href="/" class="svelte-8vxwpk"><img src="/_app/immutable/assets/wrs-logo-2023-7b5cfec7.png" alt="화이트래빗스토리" style="height:36px;" class="svelte-8vxwpk"></a></div>
+            
+            <nav class=" svelte-8vxwpk"><ul class="svelte-8vxwpk"><li class="svelte-8vxwpk"><a href="/" class="svelte-8vxwpk">🚀 프로젝트</a></li>
+                    <li class="svelte-8vxwpk"><a href="/workshop" class="svelte-8vxwpk">✈ 챗봇강의</a></li>
+                    <li class="svelte-8vxwpk"><a href="/blogs" class="svelte-8vxwpk">👍 블로그</a></li>
+                    <li class="svelte-8vxwpk"><a href="/contact" class="svelte-8vxwpk">💬 문의</a></li></ul></nav></div></div>
+    
+    
+
+</header>
+    <main class="svelte-14aq7ip">
+
+
+
+
+<div class="c-body"><div class="blog-body text-xl font-normal svelte-1iccqfv"><h1>고객센터 챗봇을 준비하고 있다면</h1>
+<div class="blog-info">2019년 09월 22일 14:25</div>
+<br>
+<h2>Step1 빠르게 적용해 보기</h2>
+<p>홈페이지 혹은 이전의 주요 상담 내용을 간단하게 <strong>데이터화</strong> 하고, 버튼으로 연결되는 챗봇을 만듭니다.
+가장 많이 사용되는 질문답변을 먼저 구축하며, 그 외의 사항들은 1:1 상담으로 유도 합니다.</p>
+<br>
+<h3>미리 준비 할 사항</h3>
+<p>◻ <a href="https://business.kakao.com/info/kakaotalkchannel/" target="_blank" class="svelte-svs7m4"><span class="material-icons vab text-2xl">open_in_browser</span><span class="">카카오톡 채널</span>
+    </a> 만들기 / <a href="https://kakaobusiness.gitbook.io/main/channel/info" target="_blank" class="svelte-svs7m4"><span class="material-icons vab text-2xl">open_in_browser</span><span class="">채널소개</span>
+    </a></p>
+<p>◻ 비즈니스 채널 신청<br>
+◻ <a href="https://i.kakao.com/" target="_blank" class="svelte-svs7m4"><span class="material-icons vab text-2xl">open_in_browser</span><span class="">오픈빌더</span>
+    </a> 신청<br>
+◻ 챗봇 시나리오가 중요하다면 다이얼로그플로우 에이젼트 생성   </p>
+<br>
+<h3>챗봇 설계 / 대화디자인</h3>
+<p>◻ 챗봇 시나리오 설계  </p>
+<ul><li>▪ 챗봇에서 구현 가능한 UI 타입 확인</li>
+<li>▪ 대화 방식보다는 버튼 선택형으로 먼저 진행</li>
+<li>▪ 대화의 뎁스가 너무 길어지지 않도록 조절</li></ul>
+<p>◻ 대화 디자인 적용  </p>
+<br>
+<h3>챗봇 제작</h3>
+<p>◻ 오픈빌더로 시나리오 구현  </p>
+<br>
+<h3>챗봇 출시</h3>
+<p>◻ 카카오톡에서 테스트  </p>
+<ul><li>▪ 테스트 채널에서 테스트를 진행합니다.<br>
+▪ 운영 채널과의 연결을 테스트가 완료 된 이후에 합니다.   </li></ul>
+<p>◻ 운영 채널에 연결  </p>
+<br>
+<h3>챗봇 운영</h3>
+<p>◻ 사용자 데이터 수집  </p>
+<ul><li>▪ 사용자별 데이터 수집이 필요한 경우가 아니라면, 오픈빌더의 분석을 이용합니다.   </li>
+<li>▪ 사용자별 데이터 수집을 하려면 별도의 개발이 필요 합니다.   </li></ul>
+<p>◻ 챗봇 업데이트  </p>
+<ul><li>▪ 사용자의 질문 빈도에 따라 UI를 재배치 합니다.</li>
+<li>▪ 챗봇 자동화 기능을 추가 합니다. 질문응답의 단순 기능에서 사용자가 필요로 하는 기능을 추가 합니다.</li>
+<li>▪ 웹페이지에서도 동일하게 사용자가 사용할 수 있도록 구축이 필요합니다. 혹은 이미 웹에서 구현되어 있는 것을 챗봇으로 구현합니다.</li>
+<li>▪ 챗봇에서만 되고, 다른 커뮤니케이션 채널에서는 안되는 것이 아니라, 통합적으로 가능하도록 만들어야 합니다.</li></ul>
+<br>
+<br>
+<br>
+<h2>Step2 데이터 수집과 시나리오 설계</h2>
+<p>◻ FAQ를 선택 방식의 단계별 UI 화면 구성 하기  </p>
+<ul><li>▪ 고객상담에서 반복적으로 발생하는 정해진 응답   </li>
+<li>▪ 단순 답변을 처리할 수 있는지 확인하기   </li>
+<li>▪ 처음부터 다시 만드는 것이 아니라, 보유하고 있는 데이터 기반   <br><br></li></ul>
+<p>◻ 효율적인 1:1 상담을 위한 사전 정보 획득   </p>
+<ul><li>▪ 사용자 연락처 받기 - 카카오톡의 경우에는 인증을 사용을 고려한다.</li>
+<li>▪ 주요 상담 프로세스를 위한 선행 데이터 받기   </li>
+<li>▪ 데이터를 처리하기 위해서는 챗봇 서버를 구축해야 한다.   <br><br></li></ul>
+<p>◻ 사용자 질문에 바로 답변 가능한 영역 확인하기</p>
+<ul><li>▪ 간단하지만, 반복적인 질문 처리<br><br></li></ul>
+<p>◻ 고객상담 챗봇이 필요한 상황</p>
+<ul><li>▪ 고객의 문의 중 많은 부분이 반복되는 질문이며, 그 질문에 대해서 최선의 응답을 가지고 있다.</li>
+<li>▪ 공통되거나 반복적인 질문에 대해서 효율적으로 처리하고 집중해야 할 업무에 시간을 투자하고 싶다.</li>
+<li>▪ 이러한 조건이라면, 먼저 간단하게 챗봇으로 고객 응대를 시작해 볼 수 있다.<br><br></li></ul>
+<br><br>
+<p>챗봇이 필요한 상황이라면 무엇을 해야 할까?  </p>
+<br>
+<p>먼저 대화 세트(데이터)가 있는가? (질문-대답) 확인해 보자.<br>
+많은 회사들은 고객센터에서 이미 고객 질문에 대한 응답 데이터를 갖추고 있기는 한데, 질문에 대한 유형 분석을 따로 할지는 의문이다. (규모 있는 회사가 아니라면 더욱 더)</p>
+<br>
+<p>처음부터 고객 정보와 연동된 시스템을 갖추는 것이 쉽지는 않다. 툴 중에는 고객 정보를 표시해 주는 기능은 있지만, 그것과 챗봇의 대화에서 고객의 정보를 이용해서 개인화 된 대화를 진행하는 일은 쉽지 않은 일이다. 시작할 때는 단순하고 반복적인 질문들에 대해서 바로 처리하거나, 고객이 대기 시간없이 먼저 질문하면, 그에 대한 적절한 응답을 전달하는 데 의미를 두는 것이 좋을 것이다.</p>
+<br>
+<p>답 중에서 고객의 질문에 따라 상담원이 적절한 대답을 고르는 작업을 하는 것이 일반적인 CS 일 것인데, 고객의 질문이 전화로 주로 이루어진다면 아마도 그런 질문 데이터 셋트를 갖추기 어려울 것이다. 따로 정리를 해야 한다는 것인데, 그런 프로세스를 갖추기는 쉽지 않다. 하지만 이미 고객의 전화에서 부터 텍스트 데이터를 뽑고, 주요 단어를 체크하는 시스템이 있다. (하지만 높은 비용을 지불해야 한다.) 그러한 비용을 지불하기 어렵다면, 데이터를 스스로 모아야 한다. 일정 기간 데이터를 수집해야 하는데, 과연 제대로 정리할 수 있을까? 지속적으로 정리가 될까? 도 생각해 보길 바란다. 그런 작업이 없는데, 챗봇부터 만들어야지 해 봐야 만들어 지는 것은 없다.</p>
+<br>
+<p>고객 질문 리스트에서 답변과 일치 시키고, 그 중에 중요한 질문들에 대해서는 (수익 발생하거나, 고객과의 관계에 큰 영향을 미치는 대화) 시나리오를 만들어야 한다. 이것 또한 새로 상상하는 것이 아니라, 자신이 하고 있는 고객 대응 방법과 일관성 있게 작성되어야 한다. (고객 대응을 엉망으로 하는 곳에서 챗봇을 외주로 제작해서 잘 돌아간다고 해 봐야, 어차피 곧 들어나기 마련이다. 정체성이란 그렇게 쉽게 포장되지 않으니 말이다.) 이런 면에서 고객 대응을 자동화 한다고 해서 그것으로 완벽하게 고객 대응이 되지 않고, 중요한 문제들에 있어서는 직접 대응하는 프로세스가 추가 될 텐데, 통일성 없는 대응은 고객이 더 혼란스럽고, 브랜드에 대한 신뢰가 떨어지기 때문이다.</p>
+<br>
+<p>그렇다면, 조금 더 브랜딩과 고객과의 관계에 대해서 생각해 보고, 현재까지의 그리고 앞으로 몇달 동안의 고객 대응에 대해서 데이터를 정리부터 시작하며, 작은 부분 부터 챗봇으로 전환한다. 그 내용이 많지 않아도 크게 상관 없을 것이다.</p>
+<br>
+<p>카카오톡 채널을 대체로 친구톡 등으로 푸시 메시지 전달 용으로만 사용하는 경우가 많은 것 같다. 고객 응대는 또 다른 채널로 하고 있고. 그 둘을 합치는 것도 그리 좋은 방법은 아닐 수도 있다. 어쨌든, 상담용 카카오톡 채널을 결정하고 그 안에서 작은 부분들을 만들어 보는 것으로, 그리고 특별한 홍보를 하지 않는다면, 고객들은 이전의 고객 상담을 할 테니 큰 부담없이 하지만, 상담을 놓치는 일은 없이 진행하도록 한다. 사이트의 FAQ 에서는 1:1 관계의 질문 답변이지만, 고객이 주로 사용하는 대화 형태를 적용하는 챗봇에서는 많은 질문 의도와 답변으로 구성되어야 한다. 이러한 여러가지 표현들에 대해서는 고객의 나이와 성별, 문화적 차이에 따라서 달라지기 마련인데, 브랜드 마다 적절한 타켓이 있으므로, 자신의 주요 타켓을 중점적으로 이러한 표현들을 수집해야 한다. 단적인 것으로 줄여쓰는 말이라든가, 해당 고객들이 주로 사용하는 커뮤니티에서 사용하는 언어등이 있을 것이다. 그리고 직접 수집한 기록도 데이터로 전환하는 것이 필요하다.</p>
+<br>
+<p>네이버 고객 센터는 각각의 주제에 따라 챗봇을 구분해서 운영하고 있다.</p>
+<br>
+<p>긴 문장에서 적합한 짧은 문장을 찾는 것도 중요하다. 고객이 긴 이야기를 자신의 표현 방식으로 말할 때 (음성, 텍스트) 해당 부분을 정확하게 파악할 수 있는 방법은 없다. (정확하게도 아니고 대충이라도… 그를 위해서 따로 머신러닝 시스템을 구축한다도 말이 안되는 것이, 그러한 시스템을 구축하는 일에 드는 기간과 비용이 엄청나기 때문이다.) 그러므로, 일단은 긴 문장에서 적합한 단어나 문장의 형식을 찾는 일을 해 보는 것이 중요하다. 핵심 문장에 대해서 파악한다면, 적어도 고객에게 이러한 문제인가? 에 대해서 다시 질문해 볼 수 있다. 고객에게 확인을 받을 경우에는 고객은 전 보다 깔끔한 문장으로 표현할 확률이 높을 것이다. (물론 다음 질문과 답변을 위해서 고객에게 콘텍스트를 제공해야 한다.)</p>
+<br>
+<p>챗봇을 제공하는 업체의 기준에서는 임의의 고객들이 질문을 할 때 어떤 형식으로 하는 지에 대한 가이드를 가지고, 데이터를 구축하고 있어야 한다. 챗봇을 제작하고자 하는 업체들은 대체로 N:1 의 답변 데이터를 가지지 어렵기 때문이다. 하나의 질문에서 핵심 단어를 찾고, 해당 문장을 변형했을 때 갖추어야 할 답변들과도 연결할 수 있어야 한다. 이 또한 업체들과의 협업을 통해서 경험으로 축적하고 있어야 한다. 이론적인 배경도 물론 중요하다. 구글에서 로그 데이터를 요구하는 것도 마찬가지 일 것이다. 로그를 받고 더 저렴한 가격으로 자신들의 서비스를 제공한다.</p>
+<br>
+<p>구글 STT 가격표</p>
+<br>
+<p>출처  <a href="https://cloud.google.com/speech-to-text/pricing?hl=ko" rel="nofollow">https://cloud.google.com/speech-to-text/pricing?hl=ko</a>  가격 책정 | Cloud Speech-to-Text API 문서 | Google Cloud</p>
+<br>
+<p>그렇다면 우선 자신이 가지고 있는 데이터 세트를 1:1 이 아닌 N:1 의 구성과 질문들이 가지는 공통 어휘에 대해서 파악해야 한다. 어휘가 아니라 문장이 내포하는 의미로 인해서 결정되는 경우도 많다. 특히나 자연어 처리 부분에서는 그렇다.</p>
+<br>
+<p>네이버 톡톡 블로그 챗봇</p>
+<br>
+<p>네이버의 경우를 봤을 때 나의 의도는 블로그 조회수가 어떻게 정해지는지, 방문수는 어떻게 확인하지는지 이런 의도로 물어 본 것이고, 위의 예에서 볼 수 있듯이 각각의 경우에 대해서 다른 답변들을 제공하고 있다. 그게 정확한 답변인지에 대해서는 따로 체크 하지 않고 있다. (만족도가 떨어지던. 아니던…) 비슷한 그룹의 의도를 사용자가 계속 묻는다면 문제가 발생한 것이고 그런 데이터를 확보했다면 해당 사용자 의도에 대해서는 더 세분화된 구분이 필요해진다.</p>
+<br>
+<p>챗봇에서의 답변과 일반적인 검색에 의한 결과가 다르다. 다른 시스템이 적용되어 있고, 검색보다 더 적절하게 작동하고 있다. 사이트의 경우에도 마찬가지로, 이미 구축된 데이터를 검색하는 시스템과 챗봇에서의 답변을 제공하는 시스템은 다르게 구축될 것이다.</p>
+<br>
+<p>(일단 내가 원한 결과인지 아닌지 확인하는 것은 논외로 한다. )</p>
+<br>
+<p>기본 대화 구성 하기 1 이전 글에서 시작하기에서 강조한 부분은 고객 상담 데이터를 만드는 일이다. 먼저 구글의 고객센터를 보자.</p>
+<br>
+<p>웹에서의 일반적인 고객센터의 문제는 위의 방식처럼 검색하거나, 목록을 일일이 찾아서 문제를 해결해야 한다는 것이다. 고객의 문제에 대해서 파악했다면, 대화의 형식으로도 문제를 해결 할 수 있어야 한다. 하지만, 그렇게 구성되려면 문제에 대한 목록이 먼저 필요하고, 고객의 상황에 따라 적절한 질문을 던져서 고객 상황을 파악할 수 있어야 한다. 고객 센터의 내용을 잘 알고 있는 상담원이 1:1 상담을 통해서 문제를 해결하는 과정이라고 생각하면 된다. 회사에서는 이러한 상담원을 교육하는데에 많은 자원을 소모하기도 한다. 그 자원을 일부를 챗봇 제작에 사용한다고 생각하면 되지만, 이전의 질문과 답변에 대해서 데이터를 모으는 것이 더 중요할 것이다. 고객이 로그인이 안되요? 라고 물었다면, 어떤 제품에서 로그인이 안되었는지 알아야 한다. 해당 제품에서 로그인이 안되는 것에 대하서는 이미 준비된 FAQ 페이지나 메뉴얼이 존재할 것이다. 혹은 체크리스트. 이런 경우에 말로 듣는 것 보다 잘 정리된 이미지나 영상으로 고객에게 설명하는 것이 더 효과적일텐데, 그런 준비까지 하는 회사는 없는 것 같다. 그냥, 고객은 이해할 수 없을 것이다. 라는 전제를 깔고 있는 듯 하다. 이것도 개인화의 영역에서 보면, 스스로 문제를 해결할 수 있는 고객과 그렇지 못한 고객으로 나누는 것이 맞지 않을까?</p>
+<br>
+<p>챗봇이라면?</p>
+<br>
+<p>고객 : 로그인이 안되요<br>
+상담 챗봇 : 어떤 종류의 제품에서 발생한 문제인가요? (혹은 답변 이전에 고객의 신상에 대해서 묻는 경우도 있을 것이다. 이후의 진행을 위해서)<br>
+고객 : 폰에서요<br>
+상담 챗봇 : 그러시군요. 안드로이드를 사용중이신가요? 아이폰을 사용 중이신가요?<br>
+고객: 안드로이드요.<br>
+상담 챗봇 : 안드로이드에서 로그인이 안되는 것에 대한 정보를 보여드릴까요? 아니면 더 구체적인 상황에 대해서 말씀해 주실래요?<br>
+고객 : 어디서 확인하는지 알려주세요.<br>
+상담 챗봇 : 네, 링크 에서 확인 해 보세요. 다른 질문이 있으세요?<br>
+고객 : 아니요.</p>
+<br>
+<p>이런 형식의 대화라고 했을 때, 이 부분을 챗봇으로 구현하려면 어떻게 해야 할까? 에 대한 것이 이번 강의의 목적 입니다.</p>
+<br>
+<p>우선, 로그인에 대한 대화 세트가 준비되어 있어야 합니다. 로그인 문제에 대한 해결 방법을 가지고 있지 않다면, 상담원을 연결하거나, 다른 방식의 지원을 받도록 유도 합나다. (유선 전화, 이메일 지원 등) 구글처럼 여러가지의 제품을 가지고 있는 경우에는 각각에 대한 해결 방법을 가지고 있을테지만, 해당 내용이 분산되어 있다면, 하나의 플로우로 만드는 작업을 해야 한다. 즉, 데이터의 구조를</p>
+<br>
+<p>로그인 문제 발생- 어떤 제품,환경,특이사항등 – 해결방법</p>
+<br>
+<p>사용자의 전체적인 의도 파악, 상세 의도 파악을 위한 데이터 구성, 해당 의도에 따른 해결방법을 가지고 있어야 한다는 의미입니다. 그렇다면, 챗봇에서는 이를 간단하게 해결하려면 어떻게 해야 할까요?</p>
+<br>
+<p>우선 로그인이 안되요. 라는 의도에 대해서는 어떤 제품인지에 대해서 파악하고, 제품의 분류에 대해서 알아야 한다고 합시다. 그리고 각각의 분류에 대해서 해결 방법 링크를 가지고 있습니다.</p>
+<br>
+<p>먼저 쉽게 생각한다면, 위의 조건을 모두 가진 대화를 구성하는 것입니다. 고객이 “안드로이드에서 로그인이 안되요.” 라고 말한다면 한번에 알아 들어야 합니다. 실제 상담에서 사용될 형식은 아니겠지만, 가상으로 생각하고 진행해 봅시다. 위 처럼 문장을 만들어 보면, 어떤 데이터가 필요할지에 대해서 파악하기 쉽습니다.</p>
+<br>
+<p>전체 의도 파악 문장 : 안드로이드에서 로그인이 안되요.</p>
+<br>
+<p>우선 고객의 의도 (상황) : 로그인이 안되요. – 상위의 개념에서 해도 되고, 하위의 개념에서 해도 되겠지만, 구조를 만들려면 상위 부터 구축하는 것이 좋을 것입니다.</p>
+<br>
+<p>상세 정보 : 제품 – 아이폰, 안드로이드 문제 해결 정보 : 링크1, 링크2</p>
+<br>
+<p>1 인텐트 생성</p>
+<p>2 인텐트명 작성</p>
+<p>3 구문 작성</p>
+<p>4 응답 작성</p>
+<p>(이전 챗봇 강의에서 진행한 것을 참조하세요.)</p>
+<br>
+<p>위의 방식으로 일단, 구성을 만들고. 테스트를 해 봅시다. (save 해야 합니다. 기본 툴 사용법은 이전 강의 참고)</p>
+<p>겨우 1문장이지만 일단 의도가 파악되서 해당 인텐트가 실행됩니다.</p>
+<br>
+<p>이 경우에도 해당 인텐트가 실행되지만, 처음에 의도한 대로 상세 데이터를 알 수 없으므로, 어떤 응답을 해야 할지 알 수 없는 상황이 됩니다. 일단 인텐트는 실행됩니다.</p>
+<p>제품 목록으로 생각했던, 안드로이드, 아이폰을 구문에서 인식할 수 있도록 엔티티로 만들어 줘야 합니다. 엔티티가 없으므로 설정할 수 없습니다.</p>
+<p>일단 한글로 엔티티를 만들고 싶지만, 툴에서 제공하지 않으므로, 지원하는 형식으로 작성합니다.</p>
+<br>
+<p>1 엔티티 만들기 </p>
+<p>2 엔티티 이름 </p>
+<p>3 기본 선택된 동의어 정의 </p>
+<p>4 엔티티 값 추가</p>
+<br>
+<p><a href="https://github.com/google/re2/wiki/Syntax" rel="nofollow">https://github.com/google/re2/wiki/Syntax</a>  google/re2RE2 is a fast, safe, thread-friendly alternative to backtracking regular expression engines like those used in PCRE, Perl, and Python. It is a C++ library. – google/re2github.com</p>
+<br>
+<p>이제 엔티티에서 정규 표현식을 제공하는 군요.</p>
+<br>
+<p>이 부분도 새로 생겼는데요, 이전에 있던 자동 확장이 아닌, 오타등을 자동으로 체크해 주는 것 같습니다. 이렇게 하고 저장하고, 다시 인텐트로 이동합니다.</p>
+<p>의도의 해당 부분을 드레그 하고 (좌에서 우로) 엔티티 창에서 신규로 만든 엔티티를 선택하면 됩니다.</p>
+<p>이렇게 하고 하단의 파라미터 값이 생성되었는지 확인 합니다.</p>
+<p>자 이제 다른 제품에 대해서 테스트 해봅시다. 이미지가 안올라가서 다음 글로 이어집니다. 현재의 내용은 카카오 플러스친구 챗봇을 제작하는 오픈빌더에서도 동일한 컨셉으로 작업할 수 있습니다.</p>
+<br><br>
+<p>기본 대화 구성 하기 2</p>
+<br>
+<p>여기서는 </p>
+<p>1 아이폰에서 로그인이 안되요 </p>
+<p>2 파라미터에서 아이폰 이라는 상세 데이터가 발생했는지 확인합니다. </p>
+<p>여기까지 했으면 일단, 원하는 문장에서 사용자의 의도를 파악할 수 있습니다.</p>
+<br>
+<p>여전히, 로그인이 안되요. 라고 입력하면 인텐트(의도)가 인식은 되지만, 어떤 값인지는 알 수 없으므로, 이에 대한 처리를 해 줍시다.</p>
+<p>이제, 제품에 대한 정보가 없이 인텐트가 실행되었을 때, 해당 제품에 대해서 질문하고, 해당 데이터를 얻어 올 수 있습니다. 파라미터가 여러개라면 마찬가지로 동일하게 처리하면 됩니다.</p>
+<br>
+<p>테스트를 해 봅시다.</p>
+<br>
+<p>1 로그인이 안되요 -&gt; 인텐트는 실행되었지만, 파라미터가 없으므로 응답으로 </p>
+<p>2 어디에서 로그인이 안되세요? </p>
+<p>3 파라미터가 없으므로, 공백입니다. </p>
+<p>4 안드로이드에서요 (제품명을 말했습니다.) </p>
+<p>5 결과 응답이 출력되었습니다. </p>
+<p>6 파라미터를 확인 합니다.</p>
+<br>
+<p>이런 방식을 슬롯필링 slotfilling 이라고 합니다. 최종 답변에서, 사용자가 말한 제품을 말하도록 해 봅시다.</p>
+<p>$ 를 입력하면, 자동으로 현재 인텐트의 파라미터 값 리스트가 보이므로 필요한 값을 입력하면 됩니다.</p>
+<br>
+<p>문장을 완성하고 테스트 합니다.</p>
+<br>
+<p>네 이렇게 해서 우선, 사용자의 상세 데이터를 이용해서 답변까지 했습니다. 물론 아직 제대로 답변한 것은 아닙니다. 우선 이런식으로 사용자의 의도를 파악하고, 그 안에서 필수 데이터를 이용해서 답변을 할 수 있는 방법에 대해서 알게 되었습니다.</p>
+<br>
+<p>이렇게 하나의 엔티티로 제품을 구분하는 경우에는 파라미터 값을 풀필먼트를 사용해서 서버로 전송해서 출력값을 변경해야 합니다. 개발이 필요 합니다. 개발 없이 하려면,</p>
+<br>
+<p>1 인텐트를 2개로 구분 합니다. 안드로이드 로그인이 안되요 아이폰 로그인이 안되요</p>
+<p>각각의 인텐트에 응답을 입력합니다. 인텐트는 2개가 되었고, 각각의 의도가 분리되었으므로, 독립적인 응답이 개발 없이 가능합니다.</p>
+<p>다만, 로그인이 안된다는 표현이 여러가지 일 때 반복적으로 2개의 인텐트를 확장해야 합니다. 제품이 더 증가한다면 그 숫자만큼 계속 업데이트 해야 합니다. 시간이 많이 들긴 하지만, 개발을 할 수 없다면 어쩔 수 없습니다.</p>
+<br>
+<p>2 엔티티를 두 개로 구분합니다.</p>
+<p>이 경우에는 응답에 파라미터를 사용하는 방식이며, 해당 파라미터가 인식되면 해당 응답이 출력됩니다. 다만, 이게 정상적으로 모든 플랫폼에 적용되는 것은 아닙니다.</p>
+<p>엔티티를 2개로 만들었습니다.</p>
+<p>문장을 두개로, 두개의 파라미터를 인식하도록 합니다.</p>
+<p>응답 문장을 2개로 하고, 각각 파라미터 변수 값을 적어 줍니다. 테스트 합니다.</p>
+<br>
+<p>여기서는 안드로이드, 아이폰 2개 중의 하나의 값이 반드시 입력되어야 하므로로그인이 안되요 라고 했을 때는 처리하기 어렵습니다. 그러므로, 제품명 없이 로그인이 안되요는 따로 인텐트를 분리해서 처리해야 합니다.</p>
+<p>최종적으로는 구글 어시스턴트나 카카오챗봇 등에서 사용하게 되므로, 서버 개발 로직을 추가하는 것을 추천하며, 2개의 인텐트로 구분하는 것은 비효율적이므로 추천하지는 않습니다. 인텐트가 몇개 없다면 가능하지만, 아니라면 시간과 비용, 유지보수가 힘들게 됩니다.</p>
+<p>빠른 프로토타입 용이라면 문제 될 것이 없으므로, 인텐트를 분리해서 작업하는 것도 좋을 것 입니다.</p>
+<p>그러면, 처음의 인텐트 구성에서 제품을 확장하려면 어떻게 해야 할까요? 크롬, 지메일, gcp 등 구글 제품을 추가하고, 챗봇을 테스트 해 보세요.</p></div>
+</div></main>
+    <footer class="svelte-14aq7ip"><div class="infos svelte-14aq7ip"><div class="text pb-2 font-extrabold ">화이트래빗스토리</div>
+
+            <div class="text">yh.kim@wrstory.com</div>
+            <div class="text pb-2">03956 서울특별시 마포구 방울내로 31 102동 204호</div>
+            <div class="text pb-0">사업자 번호 : 848-34-01027</div>
+            <div class="text pb-2">통신판매업신고  : <a href="http://www.ftc.go.kr/bizCommPop.do?wrkr_no=8483401027" target="_blank" rel="noreferrer">2022-서울마포-1663</a></div>
+            <div class="text pb-2">wrstory.com © 2023 All rights reserved</div></div></footer>
+
+</div>
+
+
+		<script type="module" data-sveltekit-hydrate="hkakqr">
+			import { start } from "../_app/immutable/start-d995b616.js";
+
+			start({
+				env: {},
+				paths: {"base":"","assets":""},
+				target: document.querySelector('[data-sveltekit-hydrate="hkakqr"]').parentNode,
+				version: "1683534548002",
+				hydrate: {
+					node_ids: [0, 3],
+					data: [null,null],
+					form: null
+				}
+			});
+		</script>
+	</div>
+	</body>
+</html>

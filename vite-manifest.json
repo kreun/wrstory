@@ -1,0 +1,757 @@
+{
+  ".svelte-kit/generated/nodes/0.js": {
+    "file": "_app/immutable/chunks/0-e22ca992.js",
+    "imports": [
+      "__layout-35ed2dcc.js",
+      "src/routes/+layout.svelte"
+    ],
+    "isDynamicEntry": true,
+    "src": ".svelte-kit/generated/nodes/0.js"
+  },
+  ".svelte-kit/generated/nodes/1.js": {
+    "file": "_app/immutable/chunks/1-8682f8f6.js",
+    "imports": [
+      "node_modules/@sveltejs/kit/src/runtime/components/error.svelte"
+    ],
+    "isDynamicEntry": true,
+    "src": ".svelte-kit/generated/nodes/1.js"
+  },
+  ".svelte-kit/generated/nodes/10.js": {
+    "file": "_app/immutable/chunks/10-2dd23807.js",
+    "imports": [
+      "src/routes/test/+page.svelte"
+    ],
+    "isDynamicEntry": true,
+    "src": ".svelte-kit/generated/nodes/10.js"
+  },
+  ".svelte-kit/generated/nodes/11.js": {
+    "file": "_app/immutable/chunks/11-9048674f.js",
+    "imports": [
+      "__page-e94d8ac7.js",
+      "src/routes/tetris/+page.svelte"
+    ],
+    "isDynamicEntry": true,
+    "src": ".svelte-kit/generated/nodes/11.js"
+  },
+  ".svelte-kit/generated/nodes/12.js": {
+    "file": "_app/immutable/chunks/12-a9b16104.js",
+    "imports": [
+      "__page-fca24c55.js",
+      "src/routes/translation/+page.svelte"
+    ],
+    "isDynamicEntry": true,
+    "src": ".svelte-kit/generated/nodes/12.js"
+  },
+  ".svelte-kit/generated/nodes/13.js": {
+    "file": "_app/immutable/chunks/13-5fb9d9bb.js",
+    "imports": [
+      "__page-2a9d3cfa.js",
+      "src/routes/workshop/+page.svelte"
+    ],
+    "isDynamicEntry": true,
+    "src": ".svelte-kit/generated/nodes/13.js"
+  },
+  ".svelte-kit/generated/nodes/14.js": {
+    "file": "_app/immutable/chunks/14-9e81510c.js",
+    "imports": [
+      "__page-90a7f2f4.js",
+      "src/routes/youtube-global-hot/+page.svelte"
+    ],
+    "isDynamicEntry": true,
+    "src": ".svelte-kit/generated/nodes/14.js"
+  },
+  ".svelte-kit/generated/nodes/2.js": {
+    "file": "_app/immutable/chunks/2-c00d5ade.js",
+    "imports": [
+      "__page-382acb5f.js",
+      "src/routes/+page.svelte"
+    ],
+    "isDynamicEntry": true,
+    "src": ".svelte-kit/generated/nodes/2.js"
+  },
+  ".svelte-kit/generated/nodes/3.js": {
+    "file": "_app/immutable/chunks/3-48f25853.js",
+    "imports": [
+      "__page-c7d01fc1.js",
+      "src/routes/blog/[slug]/+page.svelte"
+    ],
+    "isDynamicEntry": true,
+    "src": ".svelte-kit/generated/nodes/3.js"
+  },
+  ".svelte-kit/generated/nodes/4.js": {
+    "file": "_app/immutable/chunks/4-da2f409c.js",
+    "imports": [
+      "__page-a5e8a8ff.js",
+      "src/routes/blogs/+page.svelte"
+    ],
+    "isDynamicEntry": true,
+    "src": ".svelte-kit/generated/nodes/4.js"
+  },
+  ".svelte-kit/generated/nodes/5.js": {
+    "file": "_app/immutable/chunks/5-0f423639.js",
+    "imports": [
+      "__page-ef34d72a.js",
+      "src/routes/chatgpt-tarot/+page.svelte"
+    ],
+    "isDynamicEntry": true,
+    "src": ".svelte-kit/generated/nodes/5.js"
+  },
+  ".svelte-kit/generated/nodes/6.js": {
+    "file": "_app/immutable/chunks/6-c1e62cec.js",
+    "imports": [
+      "__page-7c799ff2.js",
+      "src/routes/chatgpt-tools/+page.svelte"
+    ],
+    "isDynamicEntry": true,
+    "src": ".svelte-kit/generated/nodes/6.js"
+  },
+  ".svelte-kit/generated/nodes/7.js": {
+    "file": "_app/immutable/chunks/7-924338fb.js",
+    "imports": [
+      "__page-ed77219c.js",
+      "src/routes/contact/+page.svelte"
+    ],
+    "isDynamicEntry": true,
+    "src": ".svelte-kit/generated/nodes/7.js"
+  },
+  ".svelte-kit/generated/nodes/8.js": {
+    "file": "_app/immutable/chunks/8-a5228132.js",
+    "imports": [
+      "src/routes/not-found/+page.svelte"
+    ],
+    "isDynamicEntry": true,
+    "src": ".svelte-kit/generated/nodes/8.js"
+  },
+  ".svelte-kit/generated/nodes/9.js": {
+    "file": "_app/immutable/chunks/9-4b5ef9bc.js",
+    "imports": [
+      "__page-da46b06b.js",
+      "src/routes/privacy-policy/+page.svelte"
+    ],
+    "isDynamicEntry": true,
+    "src": ".svelte-kit/generated/nodes/9.js"
+  },
+  "Link.css": {
+    "file": "_app/immutable/assets/Link-2b8e26e6.css",
+    "src": "Link.css"
+  },
+  "SwiperWork.css": {
+    "file": "_app/immutable/assets/SwiperWork-bd84bd0f.css",
+    "src": "SwiperWork.css"
+  },
+  "_Link-6bfe5b17.js": {
+    "css": [
+      "_app/immutable/assets/Link-2b8e26e6.css"
+    ],
+    "file": "_app/immutable/chunks/Link-6bfe5b17.js",
+    "imports": [
+      "_index-07efb363.js"
+    ]
+  },
+  "_SvelteSeo-94b937d8.js": {
+    "file": "_app/immutable/chunks/SvelteSeo-94b937d8.js",
+    "imports": [
+      "_index-07efb363.js"
+    ]
+  },
+  "_SwiperWork-b878112b.js": {
+    "css": [
+      "_app/immutable/assets/SwiperWork-bd84bd0f.css"
+    ],
+    "file": "_app/immutable/chunks/SwiperWork-b878112b.js",
+    "imports": [
+      "_index-07efb363.js",
+      "_swiper-element-bundle-77da29fa.js"
+    ]
+  },
+  "_Youtube-78038668.js": {
+    "file": "_app/immutable/chunks/Youtube-78038668.js",
+    "imports": [
+      "_index-07efb363.js"
+    ]
+  },
+  "__layout-35ed2dcc.js": {
+    "file": "_app/immutable/chunks/_layout-35ed2dcc.js"
+  },
+  "__page-2a9d3cfa.js": {
+    "file": "_app/immutable/chunks/_page-2a9d3cfa.js"
+  },
+  "__page-382acb5f.js": {
+    "file": "_app/immutable/chunks/_page-382acb5f.js"
+  },
+  "__page-7c799ff2.js": {
+    "file": "_app/immutable/chunks/_page-7c799ff2.js"
+  },
+  "__page-90a7f2f4.js": {
+    "file": "_app/immutable/chunks/_page-90a7f2f4.js"
+  },
+  "__page-a5e8a8ff.js": {
+    "file": "_app/immutable/chunks/_page-a5e8a8ff.js"
+  },
+  "__page-c7d01fc1.js": {
+    "dynamicImports": [
+      "src/routes/blog/chatbot-design.md",
+      "src/routes/blog/chatgpt-chatbot-dev.md",
+      "src/routes/blog/conversation-design.md",
+      "src/routes/blog/cs-chatbot.md",
+      "src/routes/blog/data-chatbot.md",
+      "src/routes/blog/openbuilder-eventapi.md",
+      "src/routes/blog/option-plugin.md",
+      "src/routes/blog/search-chatbot.md",
+      "src/routes/blog/skill-api.md",
+      "src/routes/blog/subscription-chatbot.md",
+      "src/routes/blog/successful-chatbot-service.md"
+    ],
+    "file": "_app/immutable/chunks/_page-c7d01fc1.js",
+    "imports": [
+      "_preload-helper-41c905a7.js"
+    ]
+  },
+  "__page-da46b06b.js": {
+    "file": "_app/immutable/chunks/_page-da46b06b.js"
+  },
+  "__page-e94d8ac7.js": {
+    "file": "_app/immutable/chunks/_page-e94d8ac7.js"
+  },
+  "__page-ed77219c.js": {
+    "file": "_app/immutable/chunks/_page-ed77219c.js"
+  },
+  "__page-ef34d72a.js": {
+    "file": "_app/immutable/chunks/_page-ef34d72a.js"
+  },
+  "__page-fca24c55.js": {
+    "file": "_app/immutable/chunks/_page-fca24c55.js"
+  },
+  "_axios-aba6f0e0.js": {
+    "file": "_app/immutable/chunks/axios-aba6f0e0.js"
+  },
+  "_index-07efb363.js": {
+    "file": "_app/immutable/chunks/index-07efb363.js"
+  },
+  "_index-184a84c4.js": {
+    "file": "_app/immutable/chunks/index-184a84c4.js",
+    "imports": [
+      "_index-07efb363.js"
+    ]
+  },
+  "_index-ba285384.js": {
+    "file": "_app/immutable/chunks/index-ba285384.js"
+  },
+  "_index-fd57063c.js": {
+    "file": "_app/immutable/chunks/index-fd57063c.js",
+    "imports": [
+      "_index-07efb363.js"
+    ]
+  },
+  "_preload-helper-41c905a7.js": {
+    "file": "_app/immutable/chunks/preload-helper-41c905a7.js"
+  },
+  "_singletons-5bcf156b.js": {
+    "file": "_app/immutable/chunks/singletons-5bcf156b.js",
+    "imports": [
+      "_index-fd57063c.js"
+    ]
+  },
+  "_stores-1ae89425.js": {
+    "file": "_app/immutable/chunks/stores-1ae89425.js",
+    "imports": [
+      "_index-07efb363.js",
+      "_singletons-5bcf156b.js"
+    ]
+  },
+  "_swiper-element-bundle-77da29fa.js": {
+    "file": "_app/immutable/chunks/swiper-element-bundle-77da29fa.js"
+  },
+  "node_modules/@sveltejs/kit/src/runtime/client/start.js": {
+    "dynamicImports": [
+      ".svelte-kit/generated/nodes/0.js",
+      ".svelte-kit/generated/nodes/1.js",
+      ".svelte-kit/generated/nodes/2.js",
+      ".svelte-kit/generated/nodes/3.js",
+      ".svelte-kit/generated/nodes/4.js",
+      ".svelte-kit/generated/nodes/5.js",
+      ".svelte-kit/generated/nodes/6.js",
+      ".svelte-kit/generated/nodes/7.js",
+      ".svelte-kit/generated/nodes/8.js",
+      ".svelte-kit/generated/nodes/9.js",
+      ".svelte-kit/generated/nodes/10.js",
+      ".svelte-kit/generated/nodes/11.js",
+      ".svelte-kit/generated/nodes/12.js",
+      ".svelte-kit/generated/nodes/13.js",
+      ".svelte-kit/generated/nodes/14.js"
+    ],
+    "file": "_app/immutable/start-d995b616.js",
+    "imports": [
+      "_index-07efb363.js",
+      "_singletons-5bcf156b.js",
+      "_preload-helper-41c905a7.js"
+    ],
+    "isEntry": true,
+    "src": "node_modules/@sveltejs/kit/src/runtime/client/start.js"
+  },
+  "node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
+    "file": "_app/immutable/components/error.svelte-6e4fbdd9.js",
+    "imports": [
+      "_index-07efb363.js",
+      "_stores-1ae89425.js"
+    ],
+    "isEntry": true,
+    "src": "node_modules/@sveltejs/kit/src/runtime/components/error.svelte"
+  },
+  "src/lib/font/NanumSquareNeo-Variable.woff": {
+    "file": "_app/immutable/assets/NanumSquareNeo-Variable-abbc7b2a.woff",
+    "src": "src/lib/font/NanumSquareNeo-Variable.woff"
+  },
+  "src/lib/images/logo2.png": {
+    "file": "_app/immutable/assets/logo2-d939de7e.png",
+    "src": "src/lib/images/logo2.png"
+  },
+  "src/lib/images/menu.svg": {
+    "file": "_app/immutable/assets/menu-5005100f.svg",
+    "src": "src/lib/images/menu.svg"
+  },
+  "src/lib/images/wrs-logo-2023.png": {
+    "file": "_app/immutable/assets/wrs-logo-2023-7b5cfec7.png",
+    "src": "src/lib/images/wrs-logo-2023.png"
+  },
+  "src/routes/+layout.css": {
+    "file": "_app/immutable/assets/_layout-48e391bd.css",
+    "src": "src/routes/+layout.css"
+  },
+  "src/routes/+layout.svelte": {
+    "assets": [
+      "_app/immutable/assets/wrs-logo-2023-7b5cfec7.png",
+      "_app/immutable/assets/menu-5005100f.svg",
+      "_app/immutable/assets/NanumSquareNeo-Variable-abbc7b2a.woff"
+    ],
+    "css": [
+      "_app/immutable/assets/_layout-48e391bd.css"
+    ],
+    "file": "_app/immutable/components/pages/_layout.svelte-bd7cb8e0.js",
+    "imports": [
+      "_index-07efb363.js",
+      "_stores-1ae89425.js",
+      "_index-184a84c4.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/+layout.svelte"
+  },
+  "src/routes/+layout.ts": {
+    "file": "_app/immutable/modules/pages/_layout.ts-1c131f25.js",
+    "imports": [
+      "__layout-35ed2dcc.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/+layout.ts"
+  },
+  "src/routes/+page.css": {
+    "file": "_app/immutable/assets/_page-583ff1a0.css",
+    "src": "src/routes/+page.css"
+  },
+  "src/routes/+page.js": {
+    "file": "_app/immutable/modules/pages/_page.js-f2af1994.js",
+    "imports": [
+      "__page-382acb5f.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/+page.js"
+  },
+  "src/routes/+page.svelte": {
+    "css": [
+      "_app/immutable/assets/_page-583ff1a0.css"
+    ],
+    "file": "_app/immutable/components/pages/_page.svelte-33a820b9.js",
+    "imports": [
+      "_index-07efb363.js",
+      "_SwiperWork-b878112b.js",
+      "_SvelteSeo-94b937d8.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/+page.svelte"
+  },
+  "src/routes/blog/[slug]/+page.css": {
+    "file": "_app/immutable/assets/_page-11b36663.css",
+    "src": "src/routes/blog/[slug]/+page.css"
+  },
+  "src/routes/blog/[slug]/+page.js": {
+    "file": "_app/immutable/modules/pages/blog/_slug_/_page.js-539b6c5c.js",
+    "imports": [
+      "_preload-helper-41c905a7.js",
+      "__page-c7d01fc1.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/blog/[slug]/+page.js"
+  },
+  "src/routes/blog/[slug]/+page.svelte": {
+    "css": [
+      "_app/immutable/assets/_page-11b36663.css"
+    ],
+    "file": "_app/immutable/components/pages/blog/_slug_/_page.svelte-3c85ef92.js",
+    "imports": [
+      "_index-07efb363.js",
+      "_SvelteSeo-94b937d8.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/blog/[slug]/+page.svelte"
+  },
+  "src/routes/blog/chatbot-design.md": {
+    "css": [
+      "_app/immutable/assets/Link-2b8e26e6.css"
+    ],
+    "file": "_app/immutable/chunks/chatbot-design-ef818ec5.js",
+    "imports": [
+      "_index-07efb363.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/blog/chatbot-design.md"
+  },
+  "src/routes/blog/chatgpt-chatbot-dev.md": {
+    "css": [
+      "_app/immutable/assets/Link-2b8e26e6.css"
+    ],
+    "file": "_app/immutable/chunks/chatgpt-chatbot-dev-e4db81d1.js",
+    "imports": [
+      "_index-07efb363.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/blog/chatgpt-chatbot-dev.md"
+  },
+  "src/routes/blog/conversation-design.md": {
+    "css": [
+      "_app/immutable/assets/Link-2b8e26e6.css"
+    ],
+    "file": "_app/immutable/chunks/conversation-design-d0784c9e.js",
+    "imports": [
+      "_index-07efb363.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/blog/conversation-design.md"
+  },
+  "src/routes/blog/cs-chatbot.md": {
+    "file": "_app/immutable/chunks/cs-chatbot-d610fccd.js",
+    "imports": [
+      "_index-07efb363.js",
+      "_Link-6bfe5b17.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/blog/cs-chatbot.md"
+  },
+  "src/routes/blog/data-chatbot.md": {
+    "css": [
+      "_app/immutable/assets/Link-2b8e26e6.css"
+    ],
+    "file": "_app/immutable/chunks/data-chatbot-2f23404e.js",
+    "imports": [
+      "_index-07efb363.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/blog/data-chatbot.md"
+  },
+  "src/routes/blog/openbuilder-eventapi.md": {
+    "file": "_app/immutable/chunks/openbuilder-eventapi-a0e5ee09.js",
+    "imports": [
+      "_index-07efb363.js",
+      "_Link-6bfe5b17.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/blog/openbuilder-eventapi.md"
+  },
+  "src/routes/blog/option-plugin.md": {
+    "css": [
+      "_app/immutable/assets/Link-2b8e26e6.css"
+    ],
+    "file": "_app/immutable/chunks/option-plugin-3eb25768.js",
+    "imports": [
+      "_index-07efb363.js",
+      "_Youtube-78038668.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/blog/option-plugin.md"
+  },
+  "src/routes/blog/search-chatbot.md": {
+    "file": "_app/immutable/chunks/search-chatbot-99e34069.js",
+    "imports": [
+      "_index-07efb363.js",
+      "_Youtube-78038668.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/blog/search-chatbot.md"
+  },
+  "src/routes/blog/skill-api.md": {
+    "css": [
+      "_app/immutable/assets/Link-2b8e26e6.css"
+    ],
+    "file": "_app/immutable/chunks/skill-api-dfcc8bb2.js",
+    "imports": [
+      "_index-07efb363.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/blog/skill-api.md"
+  },
+  "src/routes/blog/subscription-chatbot.md": {
+    "css": [
+      "_app/immutable/assets/Link-2b8e26e6.css"
+    ],
+    "file": "_app/immutable/chunks/subscription-chatbot-18986b1f.js",
+    "imports": [
+      "_index-07efb363.js",
+      "_Youtube-78038668.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/blog/subscription-chatbot.md"
+  },
+  "src/routes/blog/successful-chatbot-service.md": {
+    "css": [
+      "_app/immutable/assets/Link-2b8e26e6.css"
+    ],
+    "file": "_app/immutable/chunks/successful-chatbot-service-ff2065e4.js",
+    "imports": [
+      "_index-07efb363.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/blog/successful-chatbot-service.md"
+  },
+  "src/routes/blogs/+page.css": {
+    "file": "_app/immutable/assets/_page-cc5666db.css",
+    "src": "src/routes/blogs/+page.css"
+  },
+  "src/routes/blogs/+page.js": {
+    "file": "_app/immutable/modules/pages/blogs/_page.js-8f5a55c7.js",
+    "imports": [
+      "__page-a5e8a8ff.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/blogs/+page.js"
+  },
+  "src/routes/blogs/+page.svelte": {
+    "css": [
+      "_app/immutable/assets/_page-cc5666db.css"
+    ],
+    "file": "_app/immutable/components/pages/blogs/_page.svelte-1a4941d2.js",
+    "imports": [
+      "_index-07efb363.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/blogs/+page.svelte"
+  },
+  "src/routes/chatgpt-tarot/+page.css": {
+    "file": "_app/immutable/assets/_page-faf99b56.css",
+    "src": "src/routes/chatgpt-tarot/+page.css"
+  },
+  "src/routes/chatgpt-tarot/+page.js": {
+    "file": "_app/immutable/modules/pages/chatgpt-tarot/_page.js-719575ee.js",
+    "imports": [
+      "__page-ef34d72a.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/chatgpt-tarot/+page.js"
+  },
+  "src/routes/chatgpt-tarot/+page.svelte": {
+    "css": [
+      "_app/immutable/assets/_page-faf99b56.css"
+    ],
+    "file": "_app/immutable/components/pages/chatgpt-tarot/_page.svelte-9fbf0866.js",
+    "imports": [
+      "_index-07efb363.js",
+      "_index-184a84c4.js",
+      "_index-fd57063c.js",
+      "_index-ba285384.js",
+      "_SvelteSeo-94b937d8.js",
+      "_swiper-element-bundle-77da29fa.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/chatgpt-tarot/+page.svelte"
+  },
+  "src/routes/chatgpt-tools/+page.css": {
+    "file": "_app/immutable/assets/_page-17c1cba1.css",
+    "src": "src/routes/chatgpt-tools/+page.css"
+  },
+  "src/routes/chatgpt-tools/+page.js": {
+    "file": "_app/immutable/modules/pages/chatgpt-tools/_page.js-94291217.js",
+    "imports": [
+      "__page-7c799ff2.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/chatgpt-tools/+page.js"
+  },
+  "src/routes/chatgpt-tools/+page.svelte": {
+    "css": [
+      "_app/immutable/assets/_page-17c1cba1.css"
+    ],
+    "file": "_app/immutable/components/pages/chatgpt-tools/_page.svelte-bf0e90d9.js",
+    "imports": [
+      "_index-07efb363.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/chatgpt-tools/+page.svelte"
+  },
+  "src/routes/contact/+page.css": {
+    "file": "_app/immutable/assets/_page-fa4afb70.css",
+    "src": "src/routes/contact/+page.css"
+  },
+  "src/routes/contact/+page.js": {
+    "file": "_app/immutable/modules/pages/contact/_page.js-4ed993c7.js",
+    "isEntry": true,
+    "src": "src/routes/contact/+page.js"
+  },
+  "src/routes/contact/+page.svelte": {
+    "css": [
+      "_app/immutable/assets/_page-fa4afb70.css"
+    ],
+    "file": "_app/immutable/components/pages/contact/_page.svelte-0f97cd51.js",
+    "imports": [
+      "_index-07efb363.js",
+      "_SvelteSeo-94b937d8.js",
+      "_index-fd57063c.js",
+      "_axios-aba6f0e0.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/contact/+page.svelte"
+  },
+  "src/routes/not-found/+page.svelte": {
+    "file": "_app/immutable/components/pages/not-found/_page.svelte-0c74a88b.js",
+    "imports": [
+      "_index-07efb363.js",
+      "_SvelteSeo-94b937d8.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/not-found/+page.svelte"
+  },
+  "src/routes/privacy-policy/+page.css": {
+    "file": "_app/immutable/assets/_page-166bb7b7.css",
+    "src": "src/routes/privacy-policy/+page.css"
+  },
+  "src/routes/privacy-policy/+page.js": {
+    "file": "_app/immutable/modules/pages/privacy-policy/_page.js-94291217.js",
+    "imports": [
+      "__page-da46b06b.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/privacy-policy/+page.js"
+  },
+  "src/routes/privacy-policy/+page.svelte": {
+    "css": [
+      "_app/immutable/assets/_page-166bb7b7.css"
+    ],
+    "file": "_app/immutable/components/pages/privacy-policy/_page.svelte-f4e34638.js",
+    "imports": [
+      "_index-07efb363.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/privacy-policy/+page.svelte"
+  },
+  "src/routes/test/+page.css": {
+    "file": "_app/immutable/assets/_page-82c6c548.css",
+    "src": "src/routes/test/+page.css"
+  },
+  "src/routes/test/+page.svelte": {
+    "css": [
+      "_app/immutable/assets/_page-82c6c548.css"
+    ],
+    "file": "_app/immutable/components/pages/test/_page.svelte-e47b3737.js",
+    "imports": [
+      "_index-07efb363.js",
+      "_index-fd57063c.js",
+      "_index-ba285384.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/test/+page.svelte"
+  },
+  "src/routes/tetris/+page.css": {
+    "file": "_app/immutable/assets/_page-2e65b5d0.css",
+    "src": "src/routes/tetris/+page.css"
+  },
+  "src/routes/tetris/+page.js": {
+    "file": "_app/immutable/modules/pages/tetris/_page.js-94291217.js",
+    "imports": [
+      "__page-e94d8ac7.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/tetris/+page.js"
+  },
+  "src/routes/tetris/+page.svelte": {
+    "css": [
+      "_app/immutable/assets/_page-2e65b5d0.css"
+    ],
+    "file": "_app/immutable/components/pages/tetris/_page.svelte-3b2da007.js",
+    "imports": [
+      "_index-07efb363.js",
+      "_SvelteSeo-94b937d8.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/tetris/+page.svelte"
+  },
+  "src/routes/translation/+page.css": {
+    "file": "_app/immutable/assets/_page-84e252da.css",
+    "src": "src/routes/translation/+page.css"
+  },
+  "src/routes/translation/+page.js": {
+    "file": "_app/immutable/modules/pages/translation/_page.js-94291217.js",
+    "imports": [
+      "__page-fca24c55.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/translation/+page.js"
+  },
+  "src/routes/translation/+page.svelte": {
+    "css": [
+      "_app/immutable/assets/_page-84e252da.css"
+    ],
+    "file": "_app/immutable/components/pages/translation/_page.svelte-df55dfed.js",
+    "imports": [
+      "_index-07efb363.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/translation/+page.svelte"
+  },
+  "src/routes/workshop/+page.css": {
+    "file": "_app/immutable/assets/_page-d3a5c9e6.css",
+    "src": "src/routes/workshop/+page.css"
+  },
+  "src/routes/workshop/+page.js": {
+    "file": "_app/immutable/modules/pages/workshop/_page.js-94291217.js",
+    "imports": [
+      "__page-2a9d3cfa.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/workshop/+page.js"
+  },
+  "src/routes/workshop/+page.svelte": {
+    "css": [
+      "_app/immutable/assets/_page-d3a5c9e6.css"
+    ],
+    "file": "_app/immutable/components/pages/workshop/_page.svelte-c7b6c245.js",
+    "imports": [
+      "_index-07efb363.js",
+      "_Link-6bfe5b17.js",
+      "_SwiperWork-b878112b.js",
+      "_SvelteSeo-94b937d8.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/workshop/+page.svelte"
+  },
+  "src/routes/youtube-global-hot/+page.css": {
+    "file": "_app/immutable/assets/_page-a4ee3bbd.css",
+    "src": "src/routes/youtube-global-hot/+page.css"
+  },
+  "src/routes/youtube-global-hot/+page.js": {
+    "file": "_app/immutable/modules/pages/youtube-global-hot/_page.js-94291217.js",
+    "imports": [
+      "__page-90a7f2f4.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/youtube-global-hot/+page.js"
+  },
+  "src/routes/youtube-global-hot/+page.svelte": {
+    "css": [
+      "_app/immutable/assets/_page-a4ee3bbd.css"
+    ],
+    "file": "_app/immutable/components/pages/youtube-global-hot/_page.svelte-ae1103e3.js",
+    "imports": [
+      "_index-07efb363.js",
+      "_axios-aba6f0e0.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/youtube-global-hot/+page.svelte"
+  }
+}

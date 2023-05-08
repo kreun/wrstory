@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-MH88394FGQ"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag('js', new Date());
+
+			gtag('config', 'G-MH88394FGQ');
+		</script>
+
+		<meta charset="utf-8" />
+		<link rel="icon" href="../wrstory.ico" />
+		<meta name="viewport" content="width=device-width" />
+		<meta http-equiv="content-security-policy" content="">
+		<link href="../_app/immutable/assets/_layout-48e391bd.css" rel="stylesheet">
+		<link href="../_app/immutable/assets/_page-11b36663.css" rel="stylesheet">
+		<link href="../_app/immutable/assets/Link-2b8e26e6.css" rel="stylesheet">
+		<link rel="modulepreload" href="../_app/immutable/start-d995b616.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/index-07efb363.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/singletons-5bcf156b.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/index-fd57063c.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/preload-helper-41c905a7.js">
+		<link rel="modulepreload" href="../_app/immutable/components/pages/_layout.svelte-bd7cb8e0.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/stores-1ae89425.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/index-184a84c4.js">
+		<link rel="modulepreload" href="../_app/immutable/modules/pages/_layout.ts-1c131f25.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/_layout-35ed2dcc.js">
+		<link rel="modulepreload" href="../_app/immutable/components/pages/blog/_slug_/_page.svelte-3c85ef92.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/SvelteSeo-94b937d8.js">
+		<link rel="modulepreload" href="../_app/immutable/modules/pages/blog/_slug_/_page.js-539b6c5c.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/_page-c7d01fc1.js"><title>챗봇 대화 디자인-화이트래빗스토리</title><!-- HEAD_svelte-1q8xl96_START --><meta name="robots" content="index,follow"><meta name="googlebot" content="index,follow"><meta name="description" content="챗봇 대화 시나리오를 어떻게 작성해야 할까요? 예제를 통해서 사용자에게 더 좋은 대화 경험을 만들 수 있는 방법을 알아 봅니다."><meta property="og:title" content="챗봇 대화 디자인-화이트래빗스토리">
+
+    <meta property="og:description" content="챗봇 대화 시나리오를 어떻게 작성해야 할까요? 예제를 통해서 사용자에게 더 좋은 대화 경험을 만들 수 있는 방법을 알아 봅니다.">
+
+    <meta property="og:url" content="https://www.wrstory.com/blog/conversation-design">
+
+    <meta property="og:type" content="article">
+
+    <meta property="article:published_time" content="2023-01-17 10:14">
+
+      <meta property="article:modified_time" content="2023-01-17 10:14">
+
+      
+
+      <meta property="article:section" content="blog">
+
+      
+
+      <meta property="article:tag" content="챗봇시나리오"><meta property="article:tag" content="챗봇시나리오디자인"><meta property="article:tag" content="챗봇설계"><meta property="article:tag" content="챗봇시나리오테스트">
+
+    <meta property="og:image" content="https://www.wrstory.com/wrstory-title.png">
+        <meta property="og:image:alt" content="화이트래빗스토리">
+        <meta property="og:image:width" content="850">
+        <meta property="og:image:height" content="650"><!-- HEAD_svelte-1q8xl96_END -->
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+	</head>
+	<body data-sveltekit-prefetch>
+		<div>
+
+
+<div class="app svelte-14aq7ip">
+
+<header class="svelte-8vxwpk"><div class="header-main svelte-8vxwpk"><div class="navs svelte-8vxwpk"><div class="corner svelte-8vxwpk">
+                <div class="m-nav-btn svelte-8vxwpk"><button><img src="/_app/immutable/assets/menu-5005100f.svg" alt="화이트래빗스토리" class="svelte-8vxwpk"></button></div>
+                <a href="/" class="svelte-8vxwpk"><img src="/_app/immutable/assets/wrs-logo-2023-7b5cfec7.png" alt="화이트래빗스토리" style="height:36px;" class="svelte-8vxwpk"></a></div>
+            
+            <nav class=" svelte-8vxwpk"><ul class="svelte-8vxwpk"><li class="svelte-8vxwpk"><a href="/" class="svelte-8vxwpk">🚀 프로젝트</a></li>
+                    <li class="svelte-8vxwpk"><a href="/workshop" class="svelte-8vxwpk">✈ 챗봇강의</a></li>
+                    <li class="svelte-8vxwpk"><a href="/blogs" class="svelte-8vxwpk">👍 블로그</a></li>
+                    <li class="svelte-8vxwpk"><a href="/contact" class="svelte-8vxwpk">💬 문의</a></li></ul></nav></div></div>
+    
+    
+
+</header>
+    <main class="svelte-14aq7ip">
+
+
+
+
+<div class="c-body"><div class="blog-body text-xl font-normal svelte-1iccqfv"><h1>챗봇 대화 디자인</h1>
+<div class="blog-info">2023-01-17 10:14</div>
+<br>
+<p>참고문서 : <a href="https://developers.google.com/assistant/conversation-design/welcome" rel="nofollow">https://developers.google.com/assistant/conversation-design/welcome</a></p>
+<br>
+<p>구글의 대화 디자인 문서에서 중요한 예제들을 정리했습니다. 챗봇 시나리오 디자인할 때 기본적인 흐름 제작에 참고 자료로 사용할 수 있습니다.
+보다 많은 예제는 참고 문서를 확인하세요.</p>
+<br>
+<ul><li>1 기계적인 응답을 요구하지 않는다.</li>
+<li>2 입력 형식이 맞지 않는 경우</li>
+<li>3 대화 진행을 위한 (문제 해결을 위한) 응답</li>
+<li>4 한번에 너무 많은 목록을 제시 하지 않는다.</li>
+<li>5 응답에 대한 함축적 표현을 이해할 수 있어야 한다.</li>
+<li>6 기술용어가 아닌 일반 용어를 사용한다.</li>
+<li>7 방금 요청한 사항을 다시 묻지 않는다. (대화 용어를 사용할 것)</li>
+<li>8 대명사 처리</li>
+<li>9 이어지는 의도 파악하기</li>
+<li>10 UI 에 대한 표현에 대해서 이해하기</li>
+<li>11 다양한 표현으로 응답</li>
+<li>12 대화주제 변경</li>
+<li>13 한번에 하나의 질문</li></ul>
+<br>
+<br>
+<br>
+<h2>기계적인 응답을 요구하지 않는다.</h2>
+<p>사용자에게 이렇게 해라 저렇게 해라 강요하지 않아야 한다.</p>
+<hr>
+<br>
+<h3><strong>⭕ Good</strong></h3>
+<p>대화 형식에 맞게 질문하고, 해당 형식이 맞지 않는 경우에만 다시 질문한다.</p>
+<br>
+<ul><li><p><strong>BOT</strong> : 질문하신 내용에 답변을 바로 드릴 수 없습니다. 전화번호를 남겨 주시면 담당자가 확인 후에 연락드리도록 하겠습니다. 연락받을 연락처를 말씀해 주세요.</p></li>
+<li><p><strong>USER</strong> : 1055270494</p></li>
+<li><p><strong>BOT</strong> : 입력하신 번호가 잘못된 것 같습니다. 다시 확인 부탁드립니다.
+(잘못 입력한 경우에만 처리)</p></li></ul>
+<br>
+<h3><strong>❌ Bad</strong></h3>
+<p>입력받은 데이터를 다시 맞는지 묻는 것</p>
+<br>
+<ul><li><p><strong>USER</strong> : 3시에 2명 예약 부탁드려요</p></li>
+<li><p><strong>BOT</strong> : 네, 3시에 2명 맞나요?</p></li>
+<li><p><strong>USER</strong> : 네</p></li></ul>
+<br>
+<br>
+<h2>입력 형식이 맞지 않는 경우</h2>
+<hr>
+<br>
+<h3><strong>⭕ Good</strong></h3>
+<p>형식에 매칭되지 않는다면, 단순하게 해당 형식으로 이야기 할 수 있도록 유도</p>
+<br>
+<ul><li><p><strong>BOT</strong> : 예약 하실 인원을 알려주세요.</p></li>
+<li><p><strong>USER</strong> : 저와 친구가 갈겁니다.</p></li>
+<li><p><strong>BOT</strong> : 죄송합니다. 몇명인가요?</p></li>
+<li><p><strong>USER</strong> : 2명</p></li></ul>
+<br>
+<h3><strong>❌ Bad</strong></h3>
+<p>장황하게 입력 방식을 설명하는 것</p>
+<br>
+<ul><li><p><strong>BOT</strong> : 예약하실 인원을 알려주세요.</p></li>
+<li><p><strong>USER</strong> : 저와 친구가 갈겁니다.</p></li>
+<li><p><strong>BOT</strong> : 인원을 @명 형식으로 입력해주세요.</p></li>
+<li><p><strong>USER</strong> : 2명</p></li></ul>
+<br>
+<br>
+<h2>대화 진행을 위한 (문제 해결을 위한) 응답</h2>
+<hr>
+<br>
+<h3><strong>⭕ Good</strong></h3>
+<p>제시한 옵션에서 유저 선택이 없을 경우의 대안을 제시</p>
+<br>
+<ul><li><p><strong>BOT</strong> : 내일 3시와 모레 6시에 가능합니다.</p></li>
+<li><p><strong>USER</strong> : 둘 다 안되는데요</p></li>
+<li><p><strong>BOT</strong> : 그러면 오늘 8시는 어떠신가요?</p></li></ul>
+<br>
+<h3><strong>❌ Bad</strong></h3>
+<p>다른 옵션 없이 불가능만을 이야기 하고 대화 종료</p>
+<br>
+<ul><li><p><strong>BOT</strong> : 내일 3시와 모레 6시에 예약 가능합니다.</p></li>
+<li><p><strong>USER</strong> : 둘 다 안되는데요</p></li>
+<li><p><strong>BOT</strong> : 네, 알겠습니다.</p></li></ul>
+<br>
+<br>
+<h2>한번에 너무 많은 목록을 제시 하지 않는다.</h2>
+<hr>
+<br>
+<h3><strong>⭕ Good</strong></h3>
+<p>현재 대화에 맞는 데이터를 유저에게 제공하고, 다음 대화의 흐름에서 데이터에 맞는 정보를 제시해야 한다.</p>
+<br>
+<ul><li><p><strong>BOT</strong> : 한식, 중식이 준비 되어 있는데요, 어떤 종류를 원하시나요?</p></li>
+<li><p><strong>USER</strong> : 한식</p></li>
+<li><p><strong>BOT</strong> : 김치찌게, 비빔밥 이 인기 메뉴입니다.</p></li>
+<li><p><strong>USER</strong> : 비빔밥</p></li></ul>
+<br>
+<h3><strong>❌ Bad</strong></h3>
+<p>한번에 모든 데이터를 제시하고, 유저가 선택하기를 기다린다.</p>
+<br>
+<ul><li><p><strong>BOT</strong> : 저희는 김치찌게, 비빔밥, 짜장면, 짬뽕, 탕수육 … 음식이 가능합니다. 어떤 것을 원하시나요?</p></li>
+<li><p><strong>USER</strong> : 비빔밥</p></li></ul>
+<br>
+<br>
+<h2>응답에 대한 함축적 표현을 이해할 수 있어야 한다.</h2>
+<hr>
+<br>
+<h3><strong>⭕ Good</strong></h3>
+<p>맞아, 그만, 그게 좋아, 됐어 와 같은 문맥도 처리한다.</p>
+<br>
+<ul><li><p><strong>USER</strong> : 이벤트 쿠폰이 있나요?</p></li>
+<li><p><strong>BOT</strong> : 네, 이번주까지 사용 가능한 10% 쿠폰이 있어요.</p></li>
+<li><p>받기/다른쿠폰보기</p></li>
+<li><p><strong>USER</strong> : 다음에 받을게요</p></li>
+<li><p><strong>BOT</strong> : 네, 다음 쿠폰이 발행되면 알려드릴게요.</p></li></ul>
+<br>
+<h3><strong>❌ Bad</strong></h3>
+<p>정해진 응답만 처리한다.</p>
+<br>
+<ul><li><p><strong>USER</strong> : 이벤트 쿠폰이 있나요?</p></li>
+<li><p><strong>BOT</strong> : 네, 이번주까지 사용 가능한 10% 쿠폰이 있어요.</p></li>
+<li><p>받기/다른쿠폰보기</p></li>
+<li><p><strong>USER</strong> : 다음에 받을게요</p></li>
+<li><p><strong>BOT</strong> :  죄송하지만 이해할 수 없어요. 다시 말씀해 주세요.</p></li></ul>
+<br>
+<br>
+<h2>기술용어가 아닌 일반 용어를 사용한다.</h2>
+<hr>
+<br>
+<h3><strong>⭕ Good</strong></h3>
+<p>유저는 개발자나 전문가가 아니다.</p>
+<br>
+<ul><li><p><strong>BOT</strong> : 배송에 필요한 우편번호를 알려주세요.</p></li>
+<li><p><strong>USER</strong> : 938</p></li>
+<li><p><strong>BOT</strong> : 우편번호가 짧습니다. 5자리 우편번호를 말씀해 주실래요?</p></li></ul>
+<br>
+<h3><strong>❌ Bad</strong></h3>
+<p>일반적으로 기획할 때의 용어를 대화에 사용한다.</p>
+<br>
+<ul><li><p><strong>BOT</strong> : 배송에 필요한 우편번호를 알려주세요.</p></li>
+<li><p><strong>USER</strong> : 938</p></li>
+<li><p><strong>BOT</strong> : 우편번호 오류, 5자리로 입력해 주세요.</p></li></ul>
+<br>
+<br>
+<h2>방금 요청한 사항을 다시 묻지 않는다. (대화 용어를 사용할 것)</h2>
+<hr>
+<br>
+<h3><strong>⭕ Good</strong></h3>
+<p>결과에 대해서만 간략하게 답변한다.</p>
+<br>
+<ul><li><strong>BOT</strong> : 네, 완료되었습니다. 다음 중 어떤 것이 좋으신가요?</li></ul>
+<br>
+<h3><strong>❌ Bad</strong></h3>
+<p>요청사항을 다시 질문하고 확인한다.</p>
+<br>
+<ul><li><strong>BOT</strong> : 요청하신 사항이 지금 모두 완료되었습니다. 검색결과를 확인하고 선택해주세요.</li></ul>
+<br>
+<br>
+<h2>대명사 처리</h2>
+<hr>
+<br>
+<h3><strong>⭕ Good</strong></h3>
+<p>유저 정보에 따른 대명사 처리를 한다.</p>
+<br>
+<ul><li><p><strong>USER</strong> : 요즘하는 콘서트 정보 알려줘</p></li>
+<li><p><strong>BOT</strong> : 최근 인기있는 콘서트를 찾아봤어요, 어떤 것이 좋으세요?</p></li>
+<li><p><strong>USER</strong> : 여기에서 하는 건 없어?</p></li>
+<li><p><strong>BOT</strong> : 서울에서는 8월에 이런 콘서트가 있어요.</p></li></ul>
+<br>
+<h3><strong>❌ Bad</strong></h3>
+<p>이해할 수 없다.</p>
+<br>
+<ul><li><p><strong>USER</strong> : 요즘하는 콘서트 정보 알려줘</p></li>
+<li><p><strong>BOT</strong> : 최근 인기있는 콘서트를 찾아봤어요, 어떤 것이 좋으세요?</p></li>
+<li><p><strong>USER</strong> : 여기에서 하는 건 없어?</p></li>
+<li><p><strong>BOT</strong> : 이해할 수 없네요, 다른 선택을 해주세요.</p></li></ul>
+<br>
+<br>
+<h2>이어지는 의도 파악하기</h2>
+<hr>
+<br>
+<h3><strong>⭕ Good</strong></h3>
+<p>의도가 이어지는 것인지 아닌지 파악해서 대답합니다.</p>
+<br>
+<ul><li><p><strong>USER</strong> : 장미꽃 10송이가 얼마인가요?</p></li>
+<li><p><strong>BOT</strong> : 프리미엄의 경우에는 5만원이고, 일반의 경우에는 4만원 입니다. 주문하시겠습니까?</p></li>
+<li><p><strong>USER</strong> : 5송이는 얼마죠?</p></li>
+<li><p><strong>BOT</strong> : 프리미엄의 경우에는 3만원이고, 일반의 경우에는 2만원입니다. 주문하시겠습니까?</p></li></ul>
+<br>
+<h3><strong>❌ Bad</strong></h3>
+<p>해당 의도에 대해서만 응답합니다.</p>
+<br>
+<ul><li><p><strong>USER</strong> : 장미꽃 10송이가 얼마인가요?</p></li>
+<li><p><strong>BOT</strong> : 프리미엄의 경우에는 5만원이고, 일반의 경우에는 4만원 입니다. 주문하시겠습니까?</p></li>
+<li><p><strong>USER</strong> : 5송이는 얼마죠?</p></li>
+<li><p><strong>BOT</strong> :  꽃 종류를 알려주세요.</p></li></ul>
+<br>
+<br>
+<h2>UI 에 대한 표현에 대해서 이해하기</h2>
+<hr>
+<br>
+<h3><strong>⭕ Good</strong></h3>
+<p>몇번째, 무슨색 등의 표현을 처리한다.</p>
+<br>
+<ul><li><p>(5가지 리스트를 보여준다.)</p></li>
+<li><p><strong>USER</strong> : 첫번째로 할게요</p></li>
+<li><p><strong>BOT</strong> : 첫번째에 대한 자세한 설명과 쇼핑진행</p></li></ul>
+<br>
+<h3><strong>❌ Bad</strong></h3>
+<p>처리 못한다.</p>
+<br>
+<ul><li><p><strong>BOT</strong> : 저희가 준비한 목록은 다음과 같습니다.</p></li>
+<li><p>`(5가지 리스트를 다시 보여준다)</p></li></ul>
+<br>
+<br>
+<h2>다양한 표현으로 응답</h2>
+<hr>
+<br>
+<h3><strong>⭕ Good</strong></h3>
+<p>지속적으로 사용되는 표현들은 다양하게 응답할 수 있도록 해야 한다.</p>
+<br>
+<p>오후 5:30</p>
+<p>오후 다섯시 반에</p>
+<p>5:30</p>
+<p>…</p>
+<br>
+<h3><strong>❌ Bad</strong></h3>
+<p>하나의 표현으로 여러번 사용</p>
+<br>
+<br>
+<h2>대화주제 변경</h2>
+<hr>
+<br>
+<h3><strong>⭕ Good</strong></h3>
+<p>행동을 만들 수 있는 질문하기
+구매 가능한 목록을 보여준다.</p>
+<br>
+<ul><li><strong>BOT</strong> : 어떤것을 구입하고 싶으신가요?</li></ul>
+<br>
+<h3><strong>❌ Bad</strong></h3>
+<p>내용에 대한 설명만 하기</p>
+<br>
+<ul><li><strong>BOT</strong> : 아래 목록을 구매할 수 있습니다.</li></ul>
+<br>
+<br>
+<h2>한번에 하나의 질문</h2>
+<hr>
+<br>
+<h3><strong>⭕ Good</strong></h3>
+<p>질문 후에 다른 말을 하지 않고 기다린다.</p>
+<br>
+<ul><li><p><strong>USER</strong> : 이 동네 있는 이벤트 알려줘</p></li>
+<li><p><strong>BOT</strong> : 네, 특별히 마음에 두고 있는 이벤트 종류가 있으세요?</p></li></ul>
+<br>
+<h3><strong>❌ Bad</strong></h3>
+<p>중첩된 질문으로 사용자를 혼란스럽게 한다.</p>
+<br>
+<ul><li><p><strong>USER</strong> : 이 동네 있는 이벤트 알려줘</p></li>
+<li><p><strong>BOT</strong> : 네, 야구경기와 축구경기가 있군요. 어떤 것이 좋으세요? 아니면 다른 종류의 이벤트를 찾아 볼까요? 이 동네에서는 배구 경기가 유명하군요.</p></li></ul></div>
+</div></main>
+    <footer class="svelte-14aq7ip"><div class="infos svelte-14aq7ip"><div class="text pb-2 font-extrabold ">화이트래빗스토리</div>
+
+            <div class="text">yh.kim@wrstory.com</div>
+            <div class="text pb-2">03956 서울특별시 마포구 방울내로 31 102동 204호</div>
+            <div class="text pb-0">사업자 번호 : 848-34-01027</div>
+            <div class="text pb-2">통신판매업신고  : <a href="http://www.ftc.go.kr/bizCommPop.do?wrkr_no=8483401027" target="_blank" rel="noreferrer">2022-서울마포-1663</a></div>
+            <div class="text pb-2">wrstory.com © 2023 All rights reserved</div></div></footer>
+
+</div>
+
+
+		<script type="module" data-sveltekit-hydrate="1723wav">
+			import { start } from "../_app/immutable/start-d995b616.js";
+
+			start({
+				env: {},
+				paths: {"base":"","assets":""},
+				target: document.querySelector('[data-sveltekit-hydrate="1723wav"]').parentNode,
+				version: "1683534548002",
+				hydrate: {
+					node_ids: [0, 3],
+					data: [null,null],
+					form: null
+				}
+			});
+		</script>
+	</div>
+	</body>
+</html>

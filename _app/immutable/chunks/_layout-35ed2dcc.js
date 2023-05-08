@@ -1,0 +1,1 @@
+const r=!0,t=({url:o})=>{const e=o.pathname;return console.log("레이아웃ts"),console.log({currentRoute:e}),{currentRoute:e}},n=Object.freeze(Object.defineProperty({__proto__:null,load:t,prerender:!0},Symbol.toStringTag,{value:"Module"}));export{n as _,t as l,r as p};

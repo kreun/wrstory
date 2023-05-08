@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-MH88394FGQ"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag('js', new Date());
+
+			gtag('config', 'G-MH88394FGQ');
+		</script>
+
+		<meta charset="utf-8" />
+		<link rel="icon" href="../wrstory.ico" />
+		<meta name="viewport" content="width=device-width" />
+		<meta http-equiv="content-security-policy" content="">
+		<link href="../_app/immutable/assets/_layout-48e391bd.css" rel="stylesheet">
+		<link href="../_app/immutable/assets/_page-11b36663.css" rel="stylesheet">
+		<link href="../_app/immutable/assets/Link-2b8e26e6.css" rel="stylesheet">
+		<link rel="modulepreload" href="../_app/immutable/start-d995b616.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/index-07efb363.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/singletons-5bcf156b.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/index-fd57063c.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/preload-helper-41c905a7.js">
+		<link rel="modulepreload" href="../_app/immutable/components/pages/_layout.svelte-bd7cb8e0.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/stores-1ae89425.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/index-184a84c4.js">
+		<link rel="modulepreload" href="../_app/immutable/modules/pages/_layout.ts-1c131f25.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/_layout-35ed2dcc.js">
+		<link rel="modulepreload" href="../_app/immutable/components/pages/blog/_slug_/_page.svelte-3c85ef92.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/SvelteSeo-94b937d8.js">
+		<link rel="modulepreload" href="../_app/immutable/modules/pages/blog/_slug_/_page.js-539b6c5c.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/_page-c7d01fc1.js"><title>오픈빌더 이벤트 / 메시지 링크 만들기-화이트래빗스토리</title><!-- HEAD_svelte-1q8xl96_START --><meta name="robots" content="index,follow"><meta name="googlebot" content="index,follow"><meta name="description" content="Event API 를 사용하면, 운영자가 특정 사용자에게 혹은 그룹에게 먼저 메세지를 보낼 수 있습니다."><meta property="og:title" content="오픈빌더 이벤트 / 메시지 링크 만들기-화이트래빗스토리">
+
+    <meta property="og:description" content="Event API 를 사용하면, 운영자가 특정 사용자에게 혹은 그룹에게 먼저 메세지를 보낼 수 있습니다.">
+
+    <meta property="og:url" content="https://www.wrstory.com/blog/openbuilder-eventapi">
+
+    <meta property="og:type" content="article">
+
+    <meta property="article:published_time" content="2020-10-28 14:25">
+
+      <meta property="article:modified_time" content="2020-10-28 14:25">
+
+      
+
+      <meta property="article:section" content="blog">
+
+      
+
+      <meta property="article:tag" content="오픈빌더"><meta property="article:tag" content="이벤트api"><meta property="article:tag" content="Event API"><meta property="article:tag" content="메시지버튼">
+
+    <meta property="og:image" content="https://www.wrstory.com/wrstory-title.png">
+        <meta property="og:image:alt" content="화이트래빗스토리">
+        <meta property="og:image:width" content="850">
+        <meta property="og:image:height" content="650"><!-- HEAD_svelte-1q8xl96_END -->
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+	</head>
+	<body data-sveltekit-prefetch>
+		<div>
+
+
+<div class="app svelte-14aq7ip">
+
+<header class="svelte-8vxwpk"><div class="header-main svelte-8vxwpk"><div class="navs svelte-8vxwpk"><div class="corner svelte-8vxwpk">
+                <div class="m-nav-btn svelte-8vxwpk"><button><img src="/_app/immutable/assets/menu-5005100f.svg" alt="화이트래빗스토리" class="svelte-8vxwpk"></button></div>
+                <a href="/" class="svelte-8vxwpk"><img src="/_app/immutable/assets/wrs-logo-2023-7b5cfec7.png" alt="화이트래빗스토리" style="height:36px;" class="svelte-8vxwpk"></a></div>
+            
+            <nav class=" svelte-8vxwpk"><ul class="svelte-8vxwpk"><li class="svelte-8vxwpk"><a href="/" class="svelte-8vxwpk">🚀 프로젝트</a></li>
+                    <li class="svelte-8vxwpk"><a href="/workshop" class="svelte-8vxwpk">✈ 챗봇강의</a></li>
+                    <li class="svelte-8vxwpk"><a href="/blogs" class="svelte-8vxwpk">👍 블로그</a></li>
+                    <li class="svelte-8vxwpk"><a href="/contact" class="svelte-8vxwpk">💬 문의</a></li></ul></nav></div></div>
+    
+    
+
+</header>
+    <main class="svelte-14aq7ip">
+
+
+
+
+<div class="c-body"><div class="blog-body text-xl font-normal svelte-1iccqfv"><h1>오픈빌더 이벤트 / 메시지 링크 만들기</h1>
+<div class="blog-info">2020-10-28 14:25</div>
+<br>
+<p>update 2022.11 <strong>모바일에서 챗봇에 메시지 보내기 링크 만들기</strong></p>
+<br>
+<p>QR 혹은 배너 링크 등으로 챗봇에 바로 메시지를 보내는 형식입니다.</p>
+<p><a href="https://plus.kakao.com/talk/bot/" rel="nofollow">https://plus.kakao.com/talk/bot/</a><strong>@채널검색용아이디/전송할메시지</strong></p>
+<br>
+<p>테스트 링크</p>
+<a href="https://plus.kakao.com/talk/bot/@change2018/안녕" target="_blank" class="svelte-svs7m4"><span class="material-icons vab text-2xl">open_in_browser</span><span class="">https://plus.kakao.com/talk/bot/@change2018/안녕</span>
+    </a>
+<br>
+<br>
+<p>자바스크립트를 이용한 링크의 경우에는 채팅창을 열게 하고, 위의 링크는 해당 챗팅방에 메시지를 보냅니다.
+챗봇을 이용하면, 해당 메시지를 이용해서 다음 대화를 이어 갈 수 있습니다.</p>
+<br>
+<h3>오픈빌더 도움말에 없는 내용이 있어서 정리를 합니다.</h3>
+<br>
+<p>Event API 를 사용하면, 운영자가 특정 사용자에게 혹은 그룹에게 먼저 메세지를 보낼 수 있습니다. (알림톡과 동일)</p>
+<p>오픈빌더에서 event 가 정의된 블럭을 전송하는 것이 기본이지만, 동일한 내용을 보내는 것만 하는 것이 아니라,
+사용자의 질문에 답변을 하거나, 새로운 알림의 내용을 보내고자 한다면, 내용이 수정되어서 보내져야 합니다.</p>
+<p>아니라면, 매번 오픈빌더의 이벤트가 설정된 블럭을 수정하고 배포한 후에 사용해야 합니다.</p>
+<br>
+<img src="/images-blog/96/openbuilder-eventapi.jpg" style="text-align: center;" width="100%" height="50px" alt="openbuilder-eventapi">
+<br>
+<p>이벤트 호출 : node.js 에서 bot rest api 를 호출합니다.</p>
+<p>Bot API 를 통해서 오픈빌더의 이벤트 블록이 실행됩니다.</p>
+<br>
+<p>이벤트 블록의 내용 그대로 알림톡 형태로 전송한다면, 여기까지 작업이 되면 되며,
+블럭의 내용을 동적으로 바꾸고자 한다면, 이벤트 호출에서 전달된 데이터가 블럭에서 처리되어야 합니다.</p>
+<p>이벤트 데이터를 바로 쓸 수 있으면 될텐데, 제가 못 찾은 건지</p>
+<p>컨텍스트 처럼 # 방식으로 혹은 웹훅처럼 <code>{{#}}</code> 형식으로 해도 처리가 안되며,</p>
+<p>이벤트 변수를 블럭에서 사용하는 것에 대해서 도움말에 없습니다.</p>
+<p>동적인 내용을 처리하기 위해서, 스킬을 호출하며,
+서버코드에서 스킬에서 출력 데이터를 정의해서 응답합니다.</p>
+<p>스킬에서 전달받은 데이터로 응답이 구성되며, 지정된 사용자에게 알림톡 형식으로 전송됩니다.</p></div>
+</div></main>
+    <footer class="svelte-14aq7ip"><div class="infos svelte-14aq7ip"><div class="text pb-2 font-extrabold ">화이트래빗스토리</div>
+
+            <div class="text">yh.kim@wrstory.com</div>
+            <div class="text pb-2">03956 서울특별시 마포구 방울내로 31 102동 204호</div>
+            <div class="text pb-0">사업자 번호 : 848-34-01027</div>
+            <div class="text pb-2">통신판매업신고  : <a href="http://www.ftc.go.kr/bizCommPop.do?wrkr_no=8483401027" target="_blank" rel="noreferrer">2022-서울마포-1663</a></div>
+            <div class="text pb-2">wrstory.com © 2023 All rights reserved</div></div></footer>
+
+</div>
+
+
+		<script type="module" data-sveltekit-hydrate="1ekessk">
+			import { start } from "../_app/immutable/start-d995b616.js";
+
+			start({
+				env: {},
+				paths: {"base":"","assets":""},
+				target: document.querySelector('[data-sveltekit-hydrate="1ekessk"]').parentNode,
+				version: "1683534548002",
+				hydrate: {
+					node_ids: [0, 3],
+					data: [null,null],
+					form: null
+				}
+			});
+		</script>
+	</div>
+	</body>
+</html>

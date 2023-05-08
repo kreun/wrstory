@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-MH88394FGQ"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag('js', new Date());
+
+			gtag('config', 'G-MH88394FGQ');
+		</script>
+
+		<meta charset="utf-8" />
+		<link rel="icon" href="../wrstory.ico" />
+		<meta name="viewport" content="width=device-width" />
+		<meta http-equiv="content-security-policy" content="">
+		<link href="../_app/immutable/assets/_layout-48e391bd.css" rel="stylesheet">
+		<link href="../_app/immutable/assets/_page-11b36663.css" rel="stylesheet">
+		<link href="../_app/immutable/assets/Link-2b8e26e6.css" rel="stylesheet">
+		<link rel="modulepreload" href="../_app/immutable/start-d995b616.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/index-07efb363.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/singletons-5bcf156b.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/index-fd57063c.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/preload-helper-41c905a7.js">
+		<link rel="modulepreload" href="../_app/immutable/components/pages/_layout.svelte-bd7cb8e0.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/stores-1ae89425.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/index-184a84c4.js">
+		<link rel="modulepreload" href="../_app/immutable/modules/pages/_layout.ts-1c131f25.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/_layout-35ed2dcc.js">
+		<link rel="modulepreload" href="../_app/immutable/components/pages/blog/_slug_/_page.svelte-3c85ef92.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/SvelteSeo-94b937d8.js">
+		<link rel="modulepreload" href="../_app/immutable/modules/pages/blog/_slug_/_page.js-539b6c5c.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/_page-c7d01fc1.js"><title>상담 챗봇 - 옵션 플러그인 적용-화이트래빗스토리</title><!-- HEAD_svelte-1q8xl96_START --><meta name="robots" content="index,follow"><meta name="googlebot" content="index,follow"><meta name="description" content="상담 챗봇 - 옵션 플러그인 적용"><meta property="og:title" content="상담 챗봇 - 옵션 플러그인 적용-화이트래빗스토리">
+
+    <meta property="og:description" content="상담 챗봇 - 옵션 플러그인 적용">
+
+    <meta property="og:url" content="https://www.wrstory.com/blog/option-plugin">
+
+    <meta property="og:type" content="article">
+
+    <meta property="article:published_time" content="2021-06-10 15:15">
+
+      <meta property="article:modified_time" content="2021-06-10 15:15">
+
+      
+
+      <meta property="article:section" content="blog">
+
+      
+
+      <meta property="article:tag" content="챗봇"><meta property="article:tag" content="오픈빌더"><meta property="article:tag" content="옵션 플러그인">
+
+    <meta property="og:image" content="https://www.wrstory.com/wrstory-title.png">
+        <meta property="og:image:alt" content="화이트래빗스토리">
+        <meta property="og:image:width" content="850">
+        <meta property="og:image:height" content="650"><!-- HEAD_svelte-1q8xl96_END -->
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+	</head>
+	<body data-sveltekit-prefetch>
+		<div>
+
+
+<div class="app svelte-14aq7ip">
+
+<header class="svelte-8vxwpk"><div class="header-main svelte-8vxwpk"><div class="navs svelte-8vxwpk"><div class="corner svelte-8vxwpk">
+                <div class="m-nav-btn svelte-8vxwpk"><button><img src="/_app/immutable/assets/menu-5005100f.svg" alt="화이트래빗스토리" class="svelte-8vxwpk"></button></div>
+                <a href="/" class="svelte-8vxwpk"><img src="/_app/immutable/assets/wrs-logo-2023-7b5cfec7.png" alt="화이트래빗스토리" style="height:36px;" class="svelte-8vxwpk"></a></div>
+            
+            <nav class=" svelte-8vxwpk"><ul class="svelte-8vxwpk"><li class="svelte-8vxwpk"><a href="/" class="svelte-8vxwpk">🚀 프로젝트</a></li>
+                    <li class="svelte-8vxwpk"><a href="/workshop" class="svelte-8vxwpk">✈ 챗봇강의</a></li>
+                    <li class="svelte-8vxwpk"><a href="/blogs" class="svelte-8vxwpk">👍 블로그</a></li>
+                    <li class="svelte-8vxwpk"><a href="/contact" class="svelte-8vxwpk">💬 문의</a></li></ul></nav></div></div>
+    
+    
+
+</header>
+    <main class="svelte-14aq7ip">
+
+
+
+
+<div class="c-body"><div class="blog-body text-xl font-normal svelte-1iccqfv"><h1>상담 챗봇 - 옵션 플러그인 적용</h1>
+<div class="blog-info">2021-06-10 15:15</div>
+<br>
+<p>카카오톡에서 선택형 입력을 받을 수 있는 옵션플러그인을 챗봇에 적용했습니다.<br>
+설문이나 요청사항 등을 고객으로 부터 받을 때 쉽게 받을 수 있는 플러그인입니다.</p>
+<br>
+<br>
+<iframe width="100%" height="600px" src="https://www.youtube.com/embed/gu8fkRIPMfU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br>
+<br>
+<h2>이전 방법</h2>
+<ul><li>01  오픈빌더에서 사용자 입력 받기 (필수파라미터)</li>
+<li>02  스킬을 이용해서 구글시트에 기록</li></ul>
+<br>
+<p>대화 형식으로 사용자의 입력을 받는 방식보다, 한번에 입력을 받는 형식으로 하려면<br>
+옵션플러그인을 사용해야 합니다.</p>
+<p>채널 1:1 대화에서 사용하는 옵션플러그인이 있고,<br>
+챗봇에서 사용하는 옵션플러그인이 있습니다.</p>
+<br>
+<br>
+<h2>옵션플러그인준비하기</h2>
+<ul><li>01 비즈니스 채널</li>
+<li>02 옵션플러그인 사용 시나리오 준비 (사용자에게 입력 받을 내용)</li>
+<li>03 옵션플러그인 화면 json 데이터 구성</li>
+<li>04 옵션플러그인 데이터 및 완료 url 개발</li>
+<li>05 카카오톡에 옵션플러그인 사용 요청</li></ul>
+<br>
+<p>옵션플러그인을 사용하기 위해서 비즈니스 채널 신청 및 사용자 프로필 사용 설정을 해야 합니다.</p>
+<br>
+<br>
+<h2>옵션 플러그인 방식</h2>
+<ul><li>01 옵션 플러그인 실행 버튼은 스킬로 만들어야 합니다.<br>
+(빌더에 없는 버튼 옵션 이며, 카카오톡에서 전달하는 문서를 참고 합니다.)</li>
+<li>02 옵션 선택이 완료되고, 사용자에게 보여지는 화면은 이벤트가 설정된 블록입니다.</li>
+<li>03 옵션 데이터를 서버에서 전달 받고 구글 시트에 기록합니다.</li></ul>
+<p>중고명품 판매 서비스 “로테어”의 챗봇 개발 진행</p>
+<br>
+<h2>저장데이터 확인</h2>
+<p>사용자 입력된 데이터는 구글 스프레드시트로 자동 저장됩니다.</p></div>
+</div></main>
+    <footer class="svelte-14aq7ip"><div class="infos svelte-14aq7ip"><div class="text pb-2 font-extrabold ">화이트래빗스토리</div>
+
+            <div class="text">yh.kim@wrstory.com</div>
+            <div class="text pb-2">03956 서울특별시 마포구 방울내로 31 102동 204호</div>
+            <div class="text pb-0">사업자 번호 : 848-34-01027</div>
+            <div class="text pb-2">통신판매업신고  : <a href="http://www.ftc.go.kr/bizCommPop.do?wrkr_no=8483401027" target="_blank" rel="noreferrer">2022-서울마포-1663</a></div>
+            <div class="text pb-2">wrstory.com © 2023 All rights reserved</div></div></footer>
+
+</div>
+
+
+		<script type="module" data-sveltekit-hydrate="1aiwkak">
+			import { start } from "../_app/immutable/start-d995b616.js";
+
+			start({
+				env: {},
+				paths: {"base":"","assets":""},
+				target: document.querySelector('[data-sveltekit-hydrate="1aiwkak"]').parentNode,
+				version: "1683534548002",
+				hydrate: {
+					node_ids: [0, 3],
+					data: [null,null],
+					form: null
+				}
+			});
+		</script>
+	</div>
+	</body>
+</html>
